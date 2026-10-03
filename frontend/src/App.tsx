@@ -23,289 +23,14 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Separator } from "@/components/ui/separator";
 
-type Language = "ru" | "en";
-type Category = "coffee" | "tea" | "syrups" | "accessories";
-const copy = {
-  ru: {
-    location: "Йошкар-Ола, Россия",
-    wholesale: "Ваш партнёр в мире кофе",
-    nav: ["Ассортимент", "О нас", "Предложения", "Контакты"],
-    contact: "Связаться с нами",
-    eyebrow: "КОФЕ. ЛЮДИ. ВАШ БИЗНЕС.",
-    title: (
-      <>
-        Хороший кофе.
-        <br />
-        Большие <em>возможности.</em>
-      </>
-    ),
-    intro:
-      "Кофе, чай и всё необходимое для вашей кофейни, ресторана или офиса. Собираем лучшее в одном месте — в Йошкар-Оле.",
-    catalog: "Смотреть ассортимент",
-    partner: "Давайте знакомиться",
-    heroNote: "От первого зерна\nдо любимой чашки.",
-    stamp: "С ЛЮБОВЬЮ К КОФЕ",
-    photoLabel: "НАЧИНАЕТСЯ С ХОРОШЕГО ЗЕРНА",
-    benefits: [
-      ["Продуманный ассортимент", "Всё для вашей кофейной истории"],
-      ["Оптовый формат", "Для кофеен, ресторанов и офисов"],
-      ["Рядом с вами", "Работаем в Йошкар-Оле"],
-    ],
-    catalogLabel: "01 / АССОРТИМЕНТ",
-    catalogTitle: "Найдите свой вкус.",
-    catalogIntro:
-      "От классического эспрессо до новых сочетаний.\nВсё, что нужно для хорошей чашки.",
-    categories: ["Кофе в зёрнах", "Чай", "Сиропы", "Аксессуары"],
-    demo: "Демонстрационный каталог",
-    productNote: "Примеры ассортимента. Наличие и цены появятся позже.",
-    unavailable: "Скоро в каталоге",
-    kg: "1 кг",
-    teaWeight: "250 г",
-    syrupWeight: "1 л",
-    piece: "1 шт.",
-    aboutLabel: "02 / О COFFEE STOCK",
-    aboutTitle: (
-      <>
-        Ваш бизнес.
-        <br />
-        Наша общая
-        <br />
-        <em>любовь к кофе.</em>
-      </>
-    ),
-    aboutText:
-      "Мы — Coffee Stock, оптовый магазин в Йошкар-Оле. Объединяем всё, что нужно тем, кто готовит кофе и создаёт места, в которые хочется возвращаться.",
-    aboutText2:
-      "Открываете первую кофейню или ищете нового поставщика? Давайте начнём с простого знакомства.",
-    aboutPoints: [
-      "Кофе и сопутствующие товары в одном месте",
-      "Внимание к потребностям вашего бизнеса",
-      "Местный партнёр в Йошкар-Оле",
-    ],
-    aboutCaption: "Для тех, кто делает каждый день вкуснее.",
-    offersLabel: "03 / ПРЕДЛОЖЕНИЯ",
-    offersTitle: "Больше поводов начать.",
-    offersIntro:
-      "Готовим предложения для вашего бизнеса. Скоро здесь появятся все подробности.",
-    comingSoon: "СКОРО",
-    offer1Title: "Первый шаг к своей кофейне",
-    offer1Text:
-      "Стартовый набор: кофе, сиропы и аксессуары. Всё, чтобы начать вашу историю.",
-    offer2Title: "Больше кофе — больше возможностей",
-    offer2Text:
-      "Специальные условия для регулярных оптовых закупок. Растём вместе с вашим бизнесом.",
-    offerButton: "Предложение готовится",
-    offerDisclaimer:
-      "Предложения — примеры. Заказ и оформление пока недоступны.",
-    contactsLabel: "04 / КОНТАКТЫ",
-    contactsTitle: (
-      <>
-        Хороший кофе начинается
-        <br />с разговора.
-      </>
-    ),
-    contactsIntro:
-      "Мы в Йошкар-Оле. Будем рады познакомиться с вами и вашим бизнесом.",
-    address: "Где мы находимся",
-    addressValue: "Россия, г. Йошкар-Ола",
-    addressPlaceholder: "ул. Примерная, д. 1 — пример адреса",
-    phone: "Позвонить",
-    email: "Написать",
-    placeholder: "Пример контакта",
-    socialTitle: "Давайте будем на связи",
-    socialHint: "Ссылки-примеры · настоящие страницы появятся позже",
-    contactNotice:
-      "Сайт знакомится с вами. Контакты, адрес и социальные ссылки пока демонстрационные.",
-    footerText: "Кофе и всё для вашего бизнеса.",
-    rights: "Все права защищены.",
-    backTop: "Наверх",
-    menu: "Открыть меню",
-    closeMenu: "Закрыть меню",
-    skip: "Перейти к содержимому",
-  },
-  en: {
-    location: "Yoshkar-Ola, Russia",
-    wholesale: "Your partner in the world of coffee",
-    nav: ["Our range", "About us", "Offers", "Contact"],
-    contact: "Get in touch",
-    eyebrow: "COFFEE. PEOPLE. YOUR BUSINESS.",
-    title: (
-      <>
-        Good coffee.
-        <br />
-        Great <em>possibilities.</em>
-      </>
-    ),
-    intro:
-      "Coffee, tea, and the essentials for your café, restaurant, or office. Bringing the good things together, here in Yoshkar-Ola.",
-    catalog: "Explore our range",
-    partner: "Get to know us",
-    heroNote: "From the first bean\nto your favourite cup.",
-    stamp: "FOR THE LOVE OF COFFEE",
-    photoLabel: "IT STARTS WITH A GOOD BEAN",
-    benefits: [
-      ["A thoughtful selection", "Everything for your coffee story"],
-      ["Made for wholesale", "For cafés, restaurants, and offices"],
-      ["Your local partner", "Based in Yoshkar-Ola"],
-    ],
-    catalogLabel: "01 / OUR RANGE",
-    catalogTitle: "Find your flavour.",
-    catalogIntro:
-      "From a classic espresso to something new.\nEverything that makes a great cup.",
-    categories: ["Coffee beans", "Tea", "Syrups", "Accessories"],
-    demo: "Preview collection",
-    productNote: "Sample products. Availability and prices are coming soon.",
-    unavailable: "Coming to the catalog",
-    kg: "1 kg",
-    teaWeight: "250 g",
-    syrupWeight: "1 L",
-    piece: "1 pc.",
-    aboutLabel: "02 / ABOUT COFFEE STOCK",
-    aboutTitle: (
-      <>
-        Your business.
-        <br />
-        Our shared
-        <br />
-        <em>love of coffee.</em>
-      </>
-    ),
-    aboutText:
-      "We are Coffee Stock, a wholesale shop in Yoshkar-Ola. We bring together the essentials for people who make coffee and create places worth coming back to.",
-    aboutText2:
-      "Opening your first café or looking for a new supplier? Let’s start by getting to know each other.",
-    aboutPoints: [
-      "Coffee and supplies, all in one place",
-      "A personal approach to your business",
-      "A local partner in Yoshkar-Ola",
-    ],
-    aboutCaption: "For people who make every day taste better.",
-    offersLabel: "03 / OFFERS",
-    offersTitle: "Good things are brewing.",
-    offersIntro:
-      "We’re putting together offers for your business. All the details are coming soon.",
-    comingSoon: "COMING SOON",
-    offer1Title: "Your first café starts here",
-    offer1Text:
-      "A starter selection of coffee, syrups, and accessories. The essentials for your next chapter.",
-    offer2Title: "More coffee. More possibilities.",
-    offer2Text:
-      "Special terms for regular wholesale orders. Growing together with your business.",
-    offerButton: "Offer coming soon",
-    offerDisclaimer:
-      "These are sample offers. Ordering and checkout are not available yet.",
-    contactsLabel: "04 / CONTACT",
-    contactsTitle: (
-      <>
-        Good coffee starts
-        <br />
-        with a conversation.
-      </>
-    ),
-    contactsIntro:
-      "Find us in Yoshkar-Ola. We’d love to get to know you and your business.",
-    address: "Find us",
-    addressValue: "Yoshkar-Ola, Russia",
-    addressPlaceholder: "1 Example Street — sample address",
-    phone: "Call us",
-    email: "Write to us",
-    placeholder: "Sample contact",
-    socialTitle: "Let’s keep in touch",
-    socialHint: "Placeholder links · our real pages are coming soon",
-    contactNotice:
-      "We’re just getting started. Contact details, street address, and social links are placeholders.",
-    footerText: "Coffee and everything for your business.",
-    rights: "All rights reserved.",
-    backTop: "Back to top",
-    menu: "Open menu",
-    closeMenu: "Close menu",
-    skip: "Skip to content",
-  },
-};
+import {
+  copy,
+  products,
+  categories,
+  type Language,
+  type Category,
+} from "@/content";
 
-const products: {
-  name: string;
-  ru: string;
-  en: string;
-  category: Category;
-  color: string;
-  label: string;
-  type: string;
-}[] = [
-  {
-    name: "Brazil Santos",
-    ru: "Шоколад · орех · карамель",
-    en: "Chocolate · nuts · caramel",
-    category: "coffee",
-    color: "olive",
-    label: "BRAZIL",
-    type: "100% ARABICA",
-  },
-  {
-    name: "Espresso Blend",
-    ru: "Какао · фундук · плотное тело",
-    en: "Cocoa · hazelnut · full body",
-    category: "coffee",
-    color: "terracotta",
-    label: "ESPRESSO",
-    type: "HOUSE BLEND",
-  },
-  {
-    name: "Ethiopia Sidamo",
-    ru: "Бергамот · ягоды · цитрус",
-    en: "Bergamot · berries · citrus",
-    category: "coffee",
-    color: "ochre",
-    label: "ETHIOPIA",
-    type: "100% ARABICA",
-  },
-  {
-    name: "Colombia Supremo",
-    ru: "Карамель · красное яблоко · какао",
-    en: "Caramel · red apple · cocoa",
-    category: "coffee",
-    color: "sage",
-    label: "COLOMBIA",
-    type: "100% ARABICA",
-  },
-  {
-    name: "Earl Grey",
-    ru: "Чёрный чай · бергамот",
-    en: "Black tea · bergamot",
-    category: "tea",
-    color: "sage",
-    label: "EARL GREY",
-    type: "LOOSE LEAF TEA",
-  },
-  {
-    name: "Jasmine Green",
-    ru: "Зелёный чай · жасмин",
-    en: "Green tea · jasmine",
-    category: "tea",
-    color: "olive",
-    label: "JASMINE",
-    type: "LOOSE LEAF TEA",
-  },
-  {
-    name: "Vanilla",
-    ru: "Сироп · мягкая ваниль",
-    en: "Syrup · smooth vanilla",
-    category: "syrups",
-    color: "ochre",
-    label: "VANILLA",
-    type: "COFFEE SYRUP",
-  },
-  {
-    name: "Barista Pitcher",
-    ru: "Питчер · нержавеющая сталь · 600 мл",
-    en: "Milk pitcher · stainless steel · 600 ml",
-    category: "accessories",
-    color: "sage",
-    label: "BARISTA",
-    type: "COFFEE ESSENTIALS",
-  },
-];
-const categories: Category[] = ["coffee", "tea", "syrups", "accessories"];
 const sectionIds = ["catalog", "about", "offers", "contacts"];
 
 function Brand({ light = false }: { light?: boolean }) {
@@ -320,9 +45,7 @@ function Brand({ light = false }: { light?: boolean }) {
       </span>
       <span>
         coffee
-        <span className="brand-second">
-          stock<span className="brand-dot">®</span>
-        </span>
+        <span className="brand-second">stock</span>
       </span>
     </a>
   );
@@ -342,8 +65,8 @@ function ProductArt({ product }: { product: (typeof products)[number] }) {
           </span>
           <Bean size={25} strokeWidth={1} />
           <strong>{product.label}</strong>
-          <span className="package-type">{product.type}</span>
-          <span className="package-bottom">FRESH IDEAS. GOOD COFFEE.</span>
+          <span className="package-type">PLANT-BASED BLEND INGREDIENT</span>
+          <span className="package-bottom">FOR PROFESSIONAL FORMULATIONS</span>
         </div>
         <div className="package-fold" />
       </div>
@@ -362,23 +85,15 @@ export default function App() {
       return "ru";
     }
   });
-  const [category, setCategory] = useState<Category>("coffee");
+  const [category, setCategory] = useState<Category>("all");
   const [menuOpen, setMenuOpen] = useState(false);
   const t = copy[language];
   useEffect(() => {
     document.documentElement.lang = language;
-    document.title =
-      language === "ru"
-        ? "Coffee Stock — кофе для вашего бизнеса"
-        : "Coffee Stock — coffee for your business";
+    document.title = copy[language].pageTitle;
     document
       .querySelector('meta[name="description"]')
-      ?.setAttribute(
-        "content",
-        language === "ru"
-          ? "Coffee Stock — кофе и всё для вашего бизнеса. Оптовый магазин в Йошкар-Оле, Россия. Демонстрационный каталог."
-          : "Coffee Stock — coffee and essentials for your business. Wholesale shop in Yoshkar-Ola, Russia. Preview collection.",
-      );
+      ?.setAttribute("content", copy[language].description);
     try {
       localStorage.setItem("coffee-stock-language", language);
     } catch {
@@ -398,7 +113,7 @@ export default function App() {
             {t.location}
           </span>
           <span>{t.wholesale}</span>
-          <span className="topbar-note">B2B · COFFEE & MORE</span>
+          <span className="topbar-note">B2B · BLEND INGREDIENTS</span>
         </div>
       </div>
       <header className="header">
@@ -534,9 +249,7 @@ export default function App() {
               <small>COFFEE STOCK</small>
             </div>
             <span className="image-bottom">
-              {language === "ru"
-                ? "ХОРОШИЙ КОФЕ — ХОРОШИЙ ДЕНЬ"
-                : "GOOD COFFEE — GOOD DAY"}
+              {t.photoCaption}
               <span>01 — 04</span>
             </span>
           </div>
@@ -589,23 +302,20 @@ export default function App() {
             <TabsContent value={category}>
               <div className="product-grid" aria-live="polite">
                 {products
-                  .filter((product) => product.category === category)
+                  .filter(
+                    (product) =>
+                      category === "all" || product.category === category,
+                  )
                   .map((product) => (
-                    <article className="product-card" key={product.name}>
+                    <article className="product-card" key={product.id}>
                       <div className="product-image-wrap">
                         <Badge variant="secondary" className="product-weight">
-                          {category === "coffee"
-                            ? t.kg
-                            : category === "tea"
-                              ? t.teaWeight
-                              : category === "syrups"
-                                ? t.syrupWeight
-                                : t.piece}
+                          {t.productBadge}
                         </Badge>
                         <ProductArt product={product} />
                       </div>
                       <div className="product-title-line">
-                        <h3>{product.name}</h3>
+                        <h3>{product.name[language]}</h3>
                         <span className="product-category-icon">
                           <Bean size={15} strokeWidth={1.3} />
                         </span>
@@ -657,6 +367,58 @@ export default function App() {
                 <ArrowUpRight size={18} />
               </a>
               <span className="about-caption">{t.aboutCaption}</span>
+            </div>
+          </div>
+        </section>
+
+        <section
+          className="section container technology-section"
+          aria-labelledby="technology-title"
+        >
+          <div className="section-top">
+            <div>
+              <p className="eyebrow section-number">{t.technologyLabel}</p>
+              <h2 id="technology-title">{t.technologyTitle}</h2>
+            </div>
+            <p className="section-description">{t.technologyIntro}</p>
+          </div>
+          <div className="technology-grid">
+            {t.technologyCards.map((card, index) => (
+              <article className="technology-card" key={card.title}>
+                <span className="technology-index">0{index + 1}</span>
+                <h3>{card.title}</h3>
+                <p>{card.text}</p>
+              </article>
+            ))}
+          </div>
+          <div className="blend-guide">
+            <div>
+              <h3>{t.ratioTitle}</h3>
+              <p>{t.ratioIntro}</p>
+            </div>
+            <div className="ratio-grid">
+              {t.ratios.map((ratio) => (
+                <div className="ratio-card" key={ratio.value}>
+                  <strong>{ratio.value}</strong>
+                  <span>{ratio.label}</span>
+                  <p>{ratio.detail}</p>
+                </div>
+              ))}
+            </div>
+            <p className="ratio-note">{t.ratioNote}</p>
+          </div>
+          <div className="validation-section">
+            <h3>{t.targetsTitle}</h3>
+            <div className="validation-grid">
+              {t.targets.map((target) => (
+                <article key={target.title}>
+                  <span>{target.value}</span>
+                  <div>
+                    <h4>{target.title}</h4>
+                    <p>{target.text}</p>
+                  </div>
+                </article>
+              ))}
             </div>
           </div>
         </section>

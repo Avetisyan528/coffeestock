@@ -473,7 +473,7 @@ h2 {
 }
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 21px;
 }
 .product-image-wrap {
@@ -1554,6 +1554,161 @@ footer {
     gap: 15px;
     flex-direction: column;
     font-size: 8px;
+  }
+}
+.product-art.cocoa {
+  --label-color: #695043;
+  background: radial-gradient(ellipse at 60% 20%, #eee6df, #dcd0c4);
+}
+.technology-section {
+  border-bottom: 1px solid #dedfd3;
+}
+.technology-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+.technology-card {
+  padding: 28px;
+  border: 1px solid #dedfd3;
+  border-radius: 6px;
+}
+.technology-index {
+  display: block;
+  font-size: 11px;
+  color: #727b5b;
+  margin-bottom: 22px;
+}
+.technology-card h3,
+.blend-guide h3,
+.validation-section > h3 {
+  font-family: "Manrope Variable", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+}
+.technology-card p,
+.blend-guide p,
+.validation-grid p {
+  font-size: 13px;
+  line-height: 1.85;
+  color: #6a705f;
+  margin-top: 12px;
+}
+.blend-guide {
+  background: #e9ecdf;
+  padding: 32px;
+  border-radius: 6px;
+  margin-top: 28px;
+}
+.blend-guide > div:first-child > p {
+  max-width: 650px;
+}
+.ratio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 25px;
+}
+.ratio-card {
+  padding: 24px;
+  border: 1px solid #c7ceb7;
+  border-radius: 4px;
+}
+.ratio-card strong {
+  display: block;
+  font-family: "Manrope Variable", sans-serif;
+  font-size: 42px;
+  font-weight: 500;
+  color: #535e32;
+  letter-spacing: -1px;
+}
+.ratio-card > span {
+  display: block;
+  font-size: 12px;
+  margin-top: 8px;
+}
+.ratio-card > p {
+  font-size: 11px;
+  margin-top: 6px;
+}
+.blend-guide .ratio-note {
+  font-size: 11px;
+  margin-top: 23px;
+}
+.validation-section {
+  margin-top: 32px;
+}
+.validation-section > h3 {
+  font-size: 16px;
+}
+.validation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+  margin-top: 22px;
+}
+.validation-grid article {
+  padding-top: 20px;
+  border-top: 1px solid #dedfd3;
+}
+.validation-grid article > span {
+  font-family: "Manrope Variable", sans-serif;
+  font-size: 27px;
+  color: #646c51;
+}
+.validation-grid h4 {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 12px;
+}
+.validation-grid p {
+  font-size: 11px;
+  margin-top: 7px;
+}
+.about-caption {
+  line-height: 1.8;
+  font-size: 11px;
+  color: #6f7760;
+}
+@media (max-width: 800px) {
+  .technology-section .section-top {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .technology-section .section-description {
+    max-width: 450px;
+  }
+  .technology-card {
+    padding: 23px;
+  }
+}
+@media (max-width: 560px) {
+  .technology-grid,
+  .ratio-grid,
+  .validation-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .technology-card {
+    padding: 22px;
+  }
+  .technology-card p {
+    font-size: 12px;
+  }
+  .blend-guide {
+    padding: 22px;
+  }
+  .ratio-card {
+    padding: 18px;
+  }
+  .technology-section .section-description {
+    margin-top: 15px;
+  }
+  .product-title-line h3 {
+    font-size: 12px;
+    overflow-wrap: anywhere;
   }
 }
 @media (prefers-reduced-motion: reduce) {
