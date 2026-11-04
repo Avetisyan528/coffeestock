@@ -1722,3 +1722,14 @@ footer {
     transition: none !important;
   }
 }
+
+.blend-spec { margin: 0; font-size: 14px; line-height: 1.55; }
+.blend-spec dt { margin-top: 12px; color: #535b3d; font-size: 12px; font-weight: 650; }
+.blend-spec dd { margin: 2px 0 0; }
+.catalog-toolbar { flex-wrap: wrap; }
+.catalog-toolbar [data-slot="tabs-list"] { max-width: 100%; height: auto; justify-content: flex-start; }
+@media (max-width: 600px) {
+  .product-grid { grid-template-columns: minmax(0, 1fr); }
+  .product-title-line h3 { font-size: 18px; }
+  .product-card .tasting-notes { font-size: 14px; }
+}

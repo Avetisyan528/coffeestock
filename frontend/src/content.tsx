@@ -1,5 +1,4 @@
 export type Language = "ru" | "en";
-export type Category = "all" | "classic" | "dessert" | "fruit";
 
 export const copy = {
   ru: {
@@ -15,29 +14,23 @@ export const copy = {
         <em>ваших блендов.</em>
       </>
     ),
-    intro:
-      "Сухая растительная основа с кофейным вкусоароматическим профилем. Ингредиент на бобово-липидной основе для разработки коммерческих смесей с натуральным жареным кофе.",
+    intro: "COFFEGIO — десять сухих обжаренных растительных основ для кофейных смесей. Выберите основу по составу, вкусовому профилю и рекомендуемой обжарке кофе.",
     catalog: "Выбрать вкус",
     partner: "Узнать о продукте",
-    heroNote:
-      "Зерноподобная форма · гранулы · порошок\nДля профессионального производства.",
+    heroNote: "Коллекция COFFEGIO · 10 растительных основ",
     stamp: "ДЛЯ ВАШИХ РЕЦЕПТУР",
     photoLabel: "СЫРЬЁ ДЛЯ КОФЕЙНЫХ СМЕСЕЙ",
     photoCaption: "НАТУРАЛЬНЫЙ КОФЕ — КОМПОНЕНТ БЛЕНДА",
     benefits: [
-      ["Несколько фракций", "Подбор под технологию производства"],
+      ["Рекомендации по обжарке", "От средне-светлой до тёмной"],
       ["Вкусовые варианты", "От классики до десертных профилей"],
       ["B2B-сотрудничество", "Йошкар-Ола · Россия"],
     ],
     catalogLabel: "01 / ВКУСОВЫЕ ПРОФИЛИ",
-    catalogTitle: "Одна основа. Разные вкусы.",
-    catalogIntro:
-      "Классический кофейный профиль и ароматизированные варианты для ваших рецептур.",
-    categories: ["Все вкусы", "Классический", "Десертные", "Фруктовые"],
-    demo: "Линейка в разработке",
-    productNote:
-      "Иллюстрации упаковки условные. Фракцию, состав, фасовку, наличие и цену уточняйте перед заказом.",
-    unavailable: "Условия уточняются",
+    catalogTitle: "Коллекция COFFEGIO",
+    catalogIntro: "Подберите основу под обжарку вашего кофе. В каждой карточке — состав и ожидаемый вкус смеси.",
+    demo: "10 основ",
+    productNote: "Упаковка показана условно. Фасовку, наличие и цену уточняйте перед заказом.",
     productBadge: "Сухая основа",
     aboutLabel: "02 / О ПРОДУКТЕ",
     aboutTitle: (
@@ -49,69 +42,15 @@ export const copy = {
         <em>кофейный профиль.</em>
       </>
     ),
-    aboutText:
-      "Coffee Stock представляет сухую растительную основу для кофейных смесей. Это многокомпонентный ингредиент на бобово-липидной основе, предназначенный для совместного использования с натуральным жареным кофе.",
+    aboutText: "В коллекции COFFEGIO десять многокомпонентных сухих обжаренных растительных основ. Рецептуры отличаются составом: в них встречаются бобовые, злаки, орехи, фруктовые косточки и ароматизаторы.",
     aboutText2:
       "Основа помогает разрабатывать рецептуры с заданным объёмом, вкусом и текстурой напитка. Итоговый результат зависит от натурального кофе, доли основы, фракции и способа приготовления — его оценивают на пробной партии.",
     aboutPoints: [
-      "Зерноподобная форма, гранулы и порошок",
+      "Обжаренные растительные компоненты",
       "Классический и ароматизированные варианты",
       "Подбор фракции и рецептуры под ваш процесс",
     ],
-    aboutCaption:
-      "Растительный ингредиент для смеси, а не чистый кофе. Полный состав и аллергены необходимо уточнить в спецификации продукта.",
-    technologyLabel: "ТЕХНОЛОГИЯ И ПРИМЕНЕНИЕ",
-    technologyTitle: "От фракции до готовой смеси.",
-    technologyIntro:
-      "Параметры для обсуждения с технологом и проверки на вашем оборудовании.",
-    technologyCards: [
-      {
-        title: "Структура и фракция",
-        text: "Подбор цвета, насыпной плотности и размера частиц под выбранный кофе. Однородность смеси и устойчивость к расслоению при перевозке проверяют на конкретной рецептуре.",
-      },
-      {
-        title: "Вкус и аромат",
-        text: "Задача основы — дополнить кофейный профиль, текстуру и послевкусие напитка. Интенсивность аромата и его сохранность оценивают при заваривании и хранении.",
-      },
-      {
-        title: "Ароматизированная основа",
-        text: "Вкусовые варианты предполагают внесение ароматического профиля вместе с сухой основой. Необходимость дополнительной ароматизации определяет технолог.",
-      },
-      {
-        title: "Стабильность рецептуры",
-        text: "Основа предназначена для работы над повторяемостью вкуса от партии к партии. Состав антиоксидантов и регуляторов кислотности, их дозировки и условия применения уточняют в спецификации.",
-      },
-    ],
-    ratioTitle: "Пропорции без двусмысленности",
-    ratioIntro:
-      "Варианты для пробного смешивания. Во всех примерах сначала указана основа, затем натуральный кофе.",
-    ratios: [
-      {
-        value: "2 : 1",
-        label: "Основа : натуральный кофе",
-        detail: "2 части основы + 1 часть кофе",
-      },
-      {
-        value: "3 : 1",
-        label: "Основа : натуральный кофе",
-        detail: "3 части основы + 1 часть кофе",
-      },
-    ],
-    ratioNote:
-      "Это исходные варианты для испытаний, а не универсальная дозировка. Окончательную рецептуру, способ дозирования и обозначение состава готовой смеси определяют отдельно.",
-    targetsTitle: "Показатели, которые требуют подтверждения",
-    targets: [
-      {
-        value: "2–3 раза",
-        title: "Заявленный ориентир снижения затрат на сырьё",
-        text: "Фактическую экономию рассчитывают по ценам компонентов, доле основы и затратам на производство.",
-      },
-      {
-        value: "до 24 мес.",
-        title: "Заявленный ориентир срока хранения",
-        text: "Не подтверждён для готовой смеси. Срок устанавливают по результатам испытаний с учётом состава, упаковки и условий хранения.",
-      },
-    ],
+    aboutCaption: "Рекомендации по обжарке относятся к кофе, с которым сочетают основу. Информацию об аллергенах уточняйте в спецификации выбранной смеси.",
     offersLabel: "03 / СОТРУДНИЧЕСТВО",
     offersTitle: "Начнём с вашей рецептуры.",
     offersIntro:
@@ -151,9 +90,8 @@ export const copy = {
     menu: "Открыть меню",
     closeMenu: "Закрыть меню",
     skip: "Перейти к содержимому",
-    pageTitle: "Coffee Stock — сухая основа для кофейных смесей",
-    description:
-      "Сухая растительная основа для кофейных смесей: зерноподобная форма, гранулы и порошок. Классический и ароматизированные варианты. Coffee Stock, Йошкар-Ола.",
+    pageTitle: "COFFEGIO — каталог растительных основ | Coffee Stock",
+    description: "Десять сухих обжаренных растительных основ COFFEGIO: состав, ожидаемый вкус и рекомендации по выбору обжарки кофе.",
   },
   en: {
     location: "Yoshkar-Ola, Russia",
@@ -168,29 +106,23 @@ export const copy = {
         <em>your blends.</em>
       </>
     ),
-    intro:
-      "A dry plant-based ingredient with a coffee flavour and aroma profile. A legume-and-lipid base for developing commercial blends with natural roasted coffee.",
+    intro: "COFFEGIO is a collection of ten dry, roasted plant-based ingredients for coffee blends. Explore each recipe by its ingredients, expected taste and recommended coffee roast.",
     catalog: "Explore flavours",
     partner: "Meet the product",
-    heroNote:
-      "Bean-shaped form · granules · powder\nFor professional production.",
+    heroNote: "COFFEGIO collection · 10 plant-based blends",
     stamp: "MADE FOR YOUR RECIPES",
     photoLabel: "INGREDIENTS FOR COFFEE BLENDS",
     photoCaption: "NATURAL COFFEE — ONE PART OF THE BLEND",
     benefits: [
-      ["Multiple particle sizes", "Selected for your production process"],
+      ["Coffee roast pairings", "From medium-light to dark"],
       ["Flavour options", "From classic to dessert profiles"],
       ["B2B partnerships", "Yoshkar-Ola · Russia"],
     ],
     catalogLabel: "01 / FLAVOUR PROFILES",
-    catalogTitle: "One base. Many flavours.",
-    catalogIntro:
-      "A classic coffee profile and flavoured options for developing your recipes.",
-    categories: ["All flavours", "Classic", "Dessert", "Fruit"],
-    demo: "Range in development",
-    productNote:
-      "Packaging illustrations are conceptual. Confirm particle size, ingredients, pack size, availability, and pricing before ordering.",
-    unavailable: "Details to be confirmed",
+    catalogTitle: "The COFFEGIO collection",
+    catalogIntro: "Choose a blend to pair with your coffee roast. Each card lists its ingredients and expected flavour.",
+    demo: "10 blends",
+    productNote: "Packaging is illustrated. Confirm pack size, availability and pricing before ordering.",
     productBadge: "Dry base",
     aboutLabel: "02 / THE PRODUCT",
     aboutTitle: (
@@ -201,69 +133,15 @@ export const copy = {
         <em>coffee profile.</em>
       </>
     ),
-    aboutText:
-      "Coffee Stock introduces a dry plant-based ingredient for coffee blends. This multi-ingredient legume-and-lipid base is intended for use alongside natural roasted coffee.",
+    aboutText: "The ten dry, roasted COFFEGIO blends have distinct recipes. Across the range, ingredients include pulses, grains, nuts, fruit seeds and flavourings.",
     aboutText2:
       "The base is intended to support recipes with a chosen volume, flavour, and beverage texture. Results depend on the coffee, inclusion rate, particle size, and brewing method, and should be evaluated in a trial batch.",
     aboutPoints: [
-      "Bean-shaped form, granules, and powder",
+      "Roasted plant ingredients",
       "Classic and flavoured options",
       "Particle size and recipe selection for your process",
     ],
-    aboutCaption:
-      "A plant-based blend ingredient, not pure coffee. Confirm the full ingredient and allergen list in the product specification.",
-    technologyLabel: "TECHNOLOGY & APPLICATION",
-    technologyTitle: "From particle size to finished blend.",
-    technologyIntro:
-      "Parameters to discuss with your food technologist and test on your equipment.",
-    technologyCards: [
-      {
-        title: "Structure and particle size",
-        text: "Select colour, bulk density, and particle size to suit the chosen coffee. Blend uniformity and resistance to separation in transit need testing with each recipe.",
-      },
-      {
-        title: "Flavour and aroma",
-        text: "The base is intended to complement the coffee profile, texture, and finish. Aroma intensity and retention are evaluated during brewing and storage.",
-      },
-      {
-        title: "A flavoured dry base",
-        text: "Flavoured options incorporate an aroma profile into the dry base. Your food technologist determines whether any additional flavouring is needed.",
-      },
-      {
-        title: "Recipe consistency",
-        text: "The base is intended to support batch-to-batch flavour consistency. Antioxidants, acidity regulators, their quantities, and conditions of use must be specified in the product documentation.",
-      },
-    ],
-    ratioTitle: "Clear blending ratios",
-    ratioIntro:
-      "Starting points for trial blends. Each example lists the base first and natural coffee second.",
-    ratios: [
-      {
-        value: "2 : 1",
-        label: "Base : natural coffee",
-        detail: "2 parts base + 1 part coffee",
-      },
-      {
-        value: "3 : 1",
-        label: "Base : natural coffee",
-        detail: "3 parts base + 1 part coffee",
-      },
-    ],
-    ratioNote:
-      "These are trial formulations, not universal dosing instructions. The final recipe, dosing method, and ingredient declaration of the finished blend are determined separately.",
-    targetsTitle: "Figures that require validation",
-    targets: [
-      {
-        value: "2–3×",
-        title: "Stated target for reducing ingredient costs",
-        text: "Actual savings must be calculated using component prices, the inclusion rate, and production costs.",
-      },
-      {
-        value: "up to 24 months",
-        title: "Stated shelf-life target",
-        text: "Not verified for the finished blend. Shelf life must be established through testing of its formulation, packaging, and storage conditions.",
-      },
-    ],
+    aboutCaption: "Roast recommendations refer to the coffee paired with each blend. Consult the selected blend’s specification for allergen information.",
     offersLabel: "03 / PARTNERSHIPS",
     offersTitle: "Let’s start with your recipe.",
     offersIntro:
@@ -304,65 +182,7 @@ export const copy = {
     menu: "Open menu",
     closeMenu: "Close menu",
     skip: "Skip to content",
-    pageTitle: "Coffee Stock — dry base for coffee blends",
-    description:
-      "A dry plant-based ingredient for coffee blends in bean-shaped, granular, and powdered forms. Classic and flavoured options. Coffee Stock, Yoshkar-Ola.",
+    pageTitle: "COFFEGIO plant-based blend catalogue | Coffee Stock",
+    description: "Explore ten dry, roasted COFFEGIO plant-based blends, their ingredients, expected taste and recommended coffee roast.",
   },
 };
-
-export const products: {
-  id: string;
-  name: Record<Language, string>;
-  ru: string;
-  en: string;
-  category: Exclude<Category, "all">;
-  color: string;
-  label: string;
-}[] = [
-  {
-    id: "classic",
-    name: { ru: "Классический кофе", en: "Classic coffee" },
-    ru: "Основа с кофейным профилем",
-    en: "Base with a coffee profile",
-    category: "classic",
-    color: "olive",
-    label: "CLASSIC",
-  },
-  {
-    id: "irish-cream",
-    name: { ru: "Ирландский крем", en: "Irish cream" },
-    ru: "Основа со сливочным профилем",
-    en: "Base with a creamy flavour profile",
-    category: "dessert",
-    color: "terracotta",
-    label: "IRISH CREAM",
-  },
-  {
-    id: "vanilla",
-    name: { ru: "Французская ваниль", en: "French vanilla" },
-    ru: "Основа с ванильным профилем",
-    en: "Base with a vanilla flavour profile",
-    category: "dessert",
-    color: "ochre",
-    label: "VANILLA",
-  },
-  {
-    id: "chocolate",
-    name: { ru: "Бельгийский шоколад", en: "Belgian chocolate" },
-    ru: "Основа с шоколадным профилем",
-    en: "Base with a chocolate flavour profile",
-    category: "dessert",
-    color: "cocoa",
-    label: "CHOCOLATE",
-  },
-  {
-    id: "banana",
-    name: { ru: "Спелый банан", en: "Ripe banana" },
-    ru: "Основа с банановым профилем",
-    en: "Base with a banana flavour profile",
-    category: "fruit",
-    color: "sage",
-    label: "BANANA",
-  },
-];
-export const categories: Category[] = ["all", "classic", "dessert", "fruit"];

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import {
   ArrowDown,
-  ArrowDownRight,
+  ChevronDown,
   ArrowRight,
   ArrowUpRight,
   Bean,
@@ -21,15 +21,9 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Separator } from "@/components/ui/separator";
 
-import {
-  copy,
-  products,
-  categories,
-  type Language,
-  type Category,
-} from "@/content";
+import { copy, type Language } from "@/content";
+import { products, categories, roastLabels, type Category } from "@/products";
 
 const sectionIds = ["catalog", "about", "offers", "contacts"];
 
@@ -54,17 +48,13 @@ function Brand({ light = false }: { light?: boolean }) {
 function ProductArt({ product }: { product: (typeof products)[number] }) {
   return (
     <div className={`product-art ${product.color}`} aria-hidden="true">
-      <div className={`package-shadow ${product.category}`} />
-      <div className={`coffee-package ${product.category}`}>
+      <div className="package-shadow" />
+      <div className="coffee-package">
         <div className="package-seal" />
         <div className="package-label">
-          <span className="package-brand">
-            coffee
-            <br />
-            stock.
-          </span>
-          <Bean size={25} strokeWidth={1} />
-          <strong>{product.label}</strong>
+          <span className="package-brand">COFFEGIO</span>
+          <span className="pack-emblem"><Bean size={25} strokeWidth={1} /></span>
+          <strong>{product.name.split(" ")[1]}</strong>
           <span className="package-type">PLANT-BASED BLEND INGREDIENT</span>
           <span className="package-bottom">FOR PROFESSIONAL FORMULATIONS</span>
         </div>
@@ -201,74 +191,31 @@ export default function App() {
       </header>
 
       <main id="main">
-        <section className="hero container">
-          <div className="hero-copy">
-            <div className="eyebrow">
-              <span className="little-line" />
-              {t.eyebrow}
+        <section className="store-hero" aria-labelledby="store-title">
+          <div className="container store-hero-inner">
+            <div className="store-intro">
+              <p className="store-kicker"><span />COFFEGIO <i>/</i> {t.wholesale}</p>
+              <h1 id="store-title">{language === "ru" ? <>Основы для<br />кофейных<br /><em>блендов.</em></> : <>Plant-based<br />ingredients for<br /><em>coffee blends.</em></>}</h1>
+              <p className="store-summary">{language === "ru" ? "Десять сухих обжаренных растительных основ. Подберите вкус и состав под обжарку вашего кофе." : "Ten dry, roasted plant-based ingredients. Find a flavour and recipe to pair with your coffee roast."}</p>
+              <div className="store-actions">
+                <Button asChild><a href="#catalog">{t.catalog}<ArrowRight size={16} /></a></Button>
+                <a className="store-secondary" href="#offers">{language === "ru" ? "Сотрудничество" : "Partnerships"}<ArrowUpRight size={15} /></a>
+              </div>
             </div>
-            <h1>{t.title}</h1>
-            <p className="hero-description">{t.intro}</p>
-            <div className="hero-actions">
-              <Button asChild size="lg">
-                <a href="#catalog">
-                  {t.catalog}
-                  <ArrowUpRight size={17} />
-                </a>
-              </Button>
-              <a className="text-link" href="#about">
-                {t.partner}
-                <ArrowRight size={16} />
+            <div className="store-stage">
+              <div className="store-photo">
+                <img src={`${import.meta.env.BASE_URL}images/coffee-roastery.jpg`} alt="" fetchPriority="high" />
+              </div>
+              <div className="stage-pack"><ProductArt product={products[0]} /></div>
+              <a className="stage-caption" href="#blend-ORO" onClick={() => setCategory("all")}>
+                <span className="stage-index">01 / 10</span>
+                <strong>{products[0].name}</strong>
+                <span>{language === "ru" ? "Цветочные ноты · средняя обжарка" : "Floral notes · medium roast"}</span>
+                <ArrowUpRight size={18} />
               </a>
             </div>
-            <div className="hero-footnote">
-              <span className="tiny-beans">
-                <Bean />
-                <Bean />
-                <Bean />
-              </span>
-              <span>{t.heroNote}</span>
-              <ArrowDownRight size={28} strokeWidth={1} />
-            </div>
-          </div>
-          <div className="hero-image">
-            <img
-              src={`${import.meta.env.BASE_URL}images/coffee-roastery.jpg`}
-              alt={
-                language === "ru"
-                  ? "Обжаренные кофейные зёрна крупным планом"
-                  : "A close-up of roasted coffee beans"
-              }
-              fetchPriority="high"
-            />
-            <div className="hero-image-shade" />
-            <span className="image-label">{t.photoLabel}</span>
-            <div className="coffee-stamp">
-              <Bean size={28} strokeWidth={1.3} />
-              <span>{t.stamp}</span>
-              <small>COFFEE STOCK</small>
-            </div>
-            <span className="image-bottom">
-              {t.photoCaption}
-              <span>01 — 04</span>
-            </span>
           </div>
         </section>
-
-        <div className="container benefits">
-          {t.benefits.map(([title, description], i) => {
-            const Icon = [Bean, Package, MapPin][i];
-            return (
-              <div className="benefit" key={title}>
-                <Icon size={25} strokeWidth={1.3} />
-                <div>
-                  <h3>{title}</h3>
-                  <p>{description}</p>
-                </div>
-              </div>
-            );
-          })}
-        </div>
 
         <section className="section container" id="catalog">
           <div className="section-top">
@@ -285,12 +232,12 @@ export default function App() {
             <div className="catalog-toolbar">
               <TabsList
                 aria-label={
-                  language === "ru" ? "Категории товаров" : "Product categories"
+                  language === "ru" ? "Рекомендуемая обжарка кофе" : "Recommended coffee roast"
                 }
               >
-                {categories.map((item, i) => (
+                {categories.map((item) => (
                   <TabsTrigger key={item} value={item}>
-                    {t.categories[i]}
+                    {item === "all" ? (language === "ru" ? "Все обжарки" : "All roasts") : roastLabels[language][item]}
                   </TabsTrigger>
                 ))}
               </TabsList>
@@ -304,30 +251,34 @@ export default function App() {
                 {products
                   .filter(
                     (product) =>
-                      category === "all" || product.category === category,
+                      category === "all" || product.roasts.includes(category),
                   )
                   .map((product) => (
-                    <article className="product-card" key={product.id}>
+                    <article className="product-card" key={product.name} id={`blend-${product.name.split(" ")[1]}`}>
                       <div className="product-image-wrap">
                         <Badge variant="secondary" className="product-weight">
-                          {t.productBadge}
+                          {product.roasts.map((r) => roastLabels[language][r]).join(" / ")}
                         </Badge>
                         <ProductArt product={product} />
                       </div>
                       <div className="product-title-line">
-                        <h3>{product.name[language]}</h3>
+                        <h3>{product.name}</h3>
                         <span className="product-category-icon">
                           <Bean size={15} strokeWidth={1.3} />
                         </span>
                       </div>
-                      <p className="tasting-notes">{product[language]}</p>
-                      <Separator className="product-separator" />
-                      <div className="product-availability">
-                        <span>{t.unavailable}</span>
-                        <span aria-hidden="true">
-                          <ArrowUpRight size={17} />
-                        </span>
-                      </div>
+                      <p className="tasting-notes">{product[language].meaning}</p>
+                      <details className="product-details">
+                        <summary>{language === "ru" ? "Состав и профиль" : "Ingredients & profile"}<ChevronDown size={16} /></summary>
+                      <dl className="blend-spec">
+                        <dt>{language === "ru" ? "Ожидаемый профиль" : "Expected flavour"}</dt>
+                        <dd>{product[language].profile}</dd>
+                        <dt>{language === "ru" ? "Состав" : "Ingredients"}</dt>
+                        <dd>{product[language].ingredients}</dd>
+                        <dt>{language === "ru" ? "Рекомендуемая обжарка кофе" : "Recommended coffee roast"}</dt>
+                        <dd>{product.roasts.map((r) => roastLabels[language][r]).join(" / ")}</dd>
+                      </dl>
+                      </details>
                     </article>
                   ))}
               </div>
@@ -335,6 +286,21 @@ export default function App() {
           </Tabs>
           <p className="catalog-disclaimer">{t.productNote}</p>
         </section>
+
+        <div className="container benefits">
+          {t.benefits.map(([title, description], i) => {
+            const Icon = [Bean, Package, MapPin][i];
+            return (
+              <div className="benefit" key={title}>
+                <Icon size={25} strokeWidth={1.3} />
+                <div>
+                  <h3>{title}</h3>
+                  <p>{description}</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
 
         <section className="about-section" id="about">
           <div className="container about-grid">
@@ -367,58 +333,6 @@ export default function App() {
                 <ArrowUpRight size={18} />
               </a>
               <span className="about-caption">{t.aboutCaption}</span>
-            </div>
-          </div>
-        </section>
-
-        <section
-          className="section container technology-section"
-          aria-labelledby="technology-title"
-        >
-          <div className="section-top">
-            <div>
-              <p className="eyebrow section-number">{t.technologyLabel}</p>
-              <h2 id="technology-title">{t.technologyTitle}</h2>
-            </div>
-            <p className="section-description">{t.technologyIntro}</p>
-          </div>
-          <div className="technology-grid">
-            {t.technologyCards.map((card, index) => (
-              <article className="technology-card" key={card.title}>
-                <span className="technology-index">0{index + 1}</span>
-                <h3>{card.title}</h3>
-                <p>{card.text}</p>
-              </article>
-            ))}
-          </div>
-          <div className="blend-guide">
-            <div>
-              <h3>{t.ratioTitle}</h3>
-              <p>{t.ratioIntro}</p>
-            </div>
-            <div className="ratio-grid">
-              {t.ratios.map((ratio) => (
-                <div className="ratio-card" key={ratio.value}>
-                  <strong>{ratio.value}</strong>
-                  <span>{ratio.label}</span>
-                  <p>{ratio.detail}</p>
-                </div>
-              ))}
-            </div>
-            <p className="ratio-note">{t.ratioNote}</p>
-          </div>
-          <div className="validation-section">
-            <h3>{t.targetsTitle}</h3>
-            <div className="validation-grid">
-              {t.targets.map((target) => (
-                <article key={target.title}>
-                  <span>{target.value}</span>
-                  <div>
-                    <h4>{target.title}</h4>
-                    <p>{target.text}</p>
-                  </div>
-                </article>
-              ))}
             </div>
           </div>
         </section>
