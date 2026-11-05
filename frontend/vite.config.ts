@@ -10,10 +10,11 @@ export default defineConfig({
   resolve: { alias: { "@": fileURLToPath(new URL("./src", import.meta.url)) } },
   build: {
     rollupOptions: {
-      // Unlinked internal page served at /research/.
+      // Unlinked internal pages served at /research/ and /placeholders/.
       input: {
         main: fileURLToPath(new URL("./index.html", import.meta.url)),
         research: fileURLToPath(new URL("./research/index.html", import.meta.url)),
+        placeholders: fileURLToPath(new URL("./placeholders/index.html", import.meta.url)),
       },
     },
   },

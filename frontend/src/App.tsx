@@ -1,459 +1,572 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import {
-  ArrowDown,
-  ChevronDown,
   ArrowRight,
   ArrowUpRight,
   Bean,
   Check,
-  ChevronRight,
-  Coffee,
+  ChevronDown,
+  FileText,
+  FlaskConical,
   Globe2,
   Leaf,
   Mail,
   MapPin,
   Menu,
-  Package,
   Phone,
   Send,
+  Sparkles,
+  TrendingDown,
   X,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
-import { copy, type Language } from "@/content";
-import { products, categories, roastLabels, type Category } from "@/products";
+import { copy, languages, type Language } from "@/content";
+import { products, roastLabels } from "@/products";
+import { PH } from "@/placeholders";
+import { fill, Ph } from "@/format";
+import Calculator from "@/Calculator";
 
-const sectionIds = ["catalog", "about", "offers", "contacts"];
+const navIds = ["product", "how", "savings", "bases", "samples", "faq"];
+const media = (file: string) => `${import.meta.env.BASE_URL}media/${file}`;
+const STORAGE_KEY = "coffee-stock-language";
+
+function initialLanguage(): Language {
+  const param = new URLSearchParams(window.location.search).get("lang");
+  if (param && (languages as string[]).includes(param)) return param as Language;
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (saved && (languages as string[]).includes(saved)) return saved as Language;
+  } catch {
+    /* storage unavailable */
+  }
+  return "ru";
+}
 
 function Brand({ light = false }: { light?: boolean }) {
   return (
-    <a
-      className={`brand ${light ? "brand-light" : ""}`}
-      href="#"
-      aria-label="Coffee Stock"
-    >
+    <a className={`brand ${light ? "brand-light" : ""}`} href="#top" aria-label="Coffee Stock">
       <span className="brand-symbol">
-        <Bean size={26} strokeWidth={1.5} />
+        <Bean size={22} strokeWidth={1.5} />
       </span>
       <span>
-        coffee
-        <span className="brand-second">stock</span>
+        coffee<span className="brand-second">stock</span>
       </span>
     </a>
   );
 }
 
-function ProductArt({ product }: { product: (typeof products)[number] }) {
+function Photo({ file, alt, badge, className = "" }: { file: string; alt: string; badge: string; className?: string }) {
   return (
-    <div className={`product-art ${product.color}`} aria-hidden="true">
-      <div className="package-shadow" />
-      <div className="coffee-package">
-        <div className="package-seal" />
-        <div className="package-label">
-          <span className="package-brand">COFFEGIO</span>
-          <span className="pack-emblem"><Bean size={25} strokeWidth={1} /></span>
-          <strong>{product.name.split(" ")[1]}</strong>
-          <span className="package-type">PLANT-BASED BLEND INGREDIENT</span>
-          <span className="package-bottom">FOR PROFESSIONAL FORMULATIONS</span>
-        </div>
-        <div className="package-fold" />
-      </div>
-      <span className="art-caption">COFFEE STOCK / COLLECTION</span>
+    <figure className={`photo ${className}`}>
+      <img src={media(file)} alt={alt} loading="lazy" decoding="async" />
+      <span className="ph-badge">{badge}</span>
+    </figure>
+  );
+}
+
+function SectionHead({ label, title, intro }: { label: string; title: string; intro?: string }) {
+  return (
+    <div className="section-head">
+      <p className="eyebrow">{label}</p>
+      <h2>{title}</h2>
+      {intro && <p className="section-intro">{intro}</p>}
     </div>
   );
 }
 
 export default function App() {
-  const [language, setLanguage] = useState<Language>(() => {
-    try {
-      return localStorage.getItem("coffee-stock-language") === "en"
-        ? "en"
-        : "ru";
-    } catch {
-      return "ru";
-    }
-  });
-  const [category, setCategory] = useState<Category>("all");
+  const [lang, setLang] = useState<Language>(initialLanguage);
   const [menuOpen, setMenuOpen] = useState(false);
-  const t = copy[language];
+  const t = copy[lang];
+
   useEffect(() => {
-    document.documentElement.lang = language;
-    document.title = copy[language].pageTitle;
-    document
-      .querySelector('meta[name="description"]')
-      ?.setAttribute("content", copy[language].description);
+    document.documentElement.lang = lang;
+    document.title = t.meta.title;
+    document.querySelector('meta[name="description"]')?.setAttribute("content", t.meta.description);
     try {
-      localStorage.setItem("coffee-stock-language", language);
+      localStorage.setItem(STORAGE_KEY, lang);
     } catch {
-      /* The site also works without browser storage. */
+      /* the site works without storage */
     }
-  }, [language]);
+  }, [lang, t]);
+
+  useEffect(() => {
+    // /?ph highlights every value that is still a placeholder.
+    if (new URLSearchParams(window.location.search).has("ph")) {
+      document.documentElement.classList.add("show-ph");
+    }
+  }, []);
+
+  const submit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const data = new FormData(e.currentTarget);
+    const c = t.contacts;
+    const rows: [string, string][] = [
+      [c.company, "company"],
+      [c.name, "name"],
+      [c.contact, "contact"],
+      [c.product, "product"],
+      [c.method, "method"],
+      [c.coffeePrice, "coffeePrice"],
+      [c.volume, "volume"],
+    ];
+    const body = rows.map(([label, key]) => `${label}: ${String(data.get(key) ?? "").trim()}`).join("\n");
+    window.location.href = `mailto:${PH.contacts.email}?subject=${encodeURIComponent(c.subject)}&body=${encodeURIComponent(body)}`;
+  };
+
+  const LangSwitch = (
+    <div className="lang-switch" role="group" aria-label={t.ui.language}>
+      <Globe2 size={15} aria-hidden="true" />
+      {languages.map((code) => (
+        <button key={code} type="button" lang={code} aria-pressed={lang === code} onClick={() => setLang(code)}>
+          {code === "hy" ? "ՀԱՅ" : code.toUpperCase()}
+        </button>
+      ))}
+    </div>
+  );
 
   return (
     <>
       <a href="#main" className="skip-link">
-        {t.skip}
+        {t.ui.skip}
       </a>
-      <div className="topbar">
+      <div className="topbar" id="top">
         <div className="container topbar-inner">
           <span>
-            <MapPin size={12} />
-            {t.location}
+            <MapPin size={13} aria-hidden="true" />
+            <Ph>{t.topbar.location}</Ph>
           </span>
-          <span>{t.wholesale}</span>
-          <span className="topbar-note">B2B · BLEND INGREDIENTS</span>
+          <span>{t.topbar.delivery}</span>
+          <span className="topbar-note">B2B · COFFEGIO</span>
         </div>
       </div>
+
       <header className="header">
         <div className="container header-inner">
           <Brand />
-          <nav
-            className="desktop-nav"
-            aria-label={
-              language === "ru" ? "Основная навигация" : "Main navigation"
-            }
-          >
+          <nav className="desktop-nav" aria-label="Main">
             {t.nav.map((label, i) => (
-              <a key={sectionIds[i]} href={`#${sectionIds[i]}`}>
+              <a key={navIds[i]} href={`#${navIds[i]}`}>
                 {label}
               </a>
             ))}
           </nav>
           <div className="header-actions">
-            <div
-              className="language-switch"
-              role="group"
-              aria-label={language === "ru" ? "Язык" : "Language"}
-            >
-              <Globe2 size={14} />
-              <button
-                type="button"
-                onClick={() => setLanguage("ru")}
-                aria-pressed={language === "ru"}
-                lang="ru"
-              >
-                RU
-              </button>
-              <span>/</span>
-              <button
-                type="button"
-                onClick={() => setLanguage("en")}
-                aria-pressed={language === "en"}
-                lang="en"
-              >
-                EN
-              </button>
-            </div>
-            <Button asChild className="header-contact">
-              <a href="#contacts">
-                {t.contact}
-                <ArrowUpRight size={15} />
-              </a>
-            </Button>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="mobile-menu-button"
-              aria-label={menuOpen ? t.closeMenu : t.menu}
+            {LangSwitch}
+            <a className="btn btn-primary btn-sm header-cta" href="#contacts">
+              {t.cta}
+            </a>
+            <button
+              type="button"
+              className="menu-button"
+              aria-label={menuOpen ? t.ui.closeMenu : t.ui.menu}
               aria-expanded={menuOpen}
               aria-controls="mobile-nav"
               onClick={() => setMenuOpen(!menuOpen)}
             >
               {menuOpen ? <X /> : <Menu />}
-            </Button>
+            </button>
           </div>
         </div>
         {menuOpen && (
           <nav
             className="mobile-nav container"
             id="mobile-nav"
-            aria-label={
-              language === "ru" ? "Мобильная навигация" : "Mobile navigation"
-            }
-            onKeyDown={(e) => {
-              if (e.key === "Escape") setMenuOpen(false);
-            }}
+            aria-label="Mobile"
+            onKeyDown={(e) => e.key === "Escape" && setMenuOpen(false)}
           >
             {t.nav.map((label, i) => (
-              <a
-                key={sectionIds[i]}
-                href={`#${sectionIds[i]}`}
-                onClick={() => setMenuOpen(false)}
-              >
+              <a key={navIds[i]} href={`#${navIds[i]}`} onClick={() => setMenuOpen(false)}>
                 {label}
                 <ArrowUpRight size={16} />
               </a>
             ))}
+            <a href="#contacts" onClick={() => setMenuOpen(false)}>
+              {t.cta}
+              <ArrowUpRight size={16} />
+            </a>
           </nav>
         )}
       </header>
 
       <main id="main">
-        <section className="store-hero" aria-labelledby="store-title">
-          <div className="container store-hero-inner">
-            <div className="store-intro">
-              <p className="store-kicker"><span />COFFEGIO <i>/</i> {t.wholesale}</p>
-              <h1 id="store-title">{language === "ru" ? <>Основы для<br />кофейных<br /><em>блендов.</em></> : <>Plant-based<br />ingredients for<br /><em>coffee blends.</em></>}</h1>
-              <p className="store-summary">{language === "ru" ? "Десять сухих обжаренных растительных основ. Подберите вкус и состав под обжарку вашего кофе." : "Ten dry, roasted plant-based ingredients. Find a flavour and recipe to pair with your coffee roast."}</p>
-              <div className="store-actions">
-                <Button asChild><a href="#catalog">{t.catalog}<ArrowRight size={16} /></a></Button>
-                <a className="store-secondary" href="#offers">{language === "ru" ? "Сотрудничество" : "Partnerships"}<ArrowUpRight size={15} /></a>
+        {/* Hero */}
+        <section className="hero">
+          <div className="container hero-grid">
+            <div className="hero-copy">
+              <p className="eyebrow">{t.hero.kicker}</p>
+              <h1>
+                {t.hero.title} <em>{t.hero.titleEm}</em>
+              </h1>
+              <p className="lead">{fill(t.hero.lead, lang)}</p>
+              <div className="actions">
+                <a className="btn btn-primary" href="#contacts">
+                  {t.hero.primary}
+                  <ArrowRight size={17} />
+                </a>
+                <a className="btn btn-ghost" href="#savings">
+                  {t.hero.secondary}
+                </a>
               </div>
             </div>
-            <div className="store-stage">
-              <div className="store-photo">
-                <img src={`${import.meta.env.BASE_URL}images/coffee-roastery.jpg`} alt="" fetchPriority="high" />
-              </div>
-              <div className="stage-pack"><ProductArt product={products[0]} /></div>
-              <a className="stage-caption" href="#blend-ORO" onClick={() => setCategory("all")}>
-                <span className="stage-index">01 / 10</span>
-                <strong>{products[0].name}</strong>
-                <span>{language === "ru" ? "Цветочные ноты · средняя обжарка" : "Floral notes · medium roast"}</span>
-                <ArrowUpRight size={18} />
+            <Photo file="hero-espresso.webp" alt="" badge={t.ui.placeholderPhoto} className="hero-photo" />
+          </div>
+          <div className="container">
+            <ul className="facts">
+              {t.hero.facts.map(([value, label]) => (
+                <li key={label}>
+                  <strong>{value}</strong>
+                  <span>{label}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
+        {/* Why */}
+        <section className="section" id="why">
+          <div className="container">
+            <SectionHead label={t.why.label} title={t.why.title} />
+            <p className="why-text">
+              {t.why.text}{" "}
+              <a href="https://www.icmr.ru/issledovaniya/icmr-issledovania-rynok-kofe-2023-2025/" target="_blank" rel="noreferrer">
+                {t.why.source}
               </a>
+            </p>
+            <div className="cards-3">
+              {t.why.cards.map(([title, text], i) => {
+                const Icon = [TrendingDown, Leaf, Sparkles][i];
+                return (
+                  <article className="card" key={title}>
+                    <Icon size={26} strokeWidth={1.5} aria-hidden="true" />
+                    <h3>{title}</h3>
+                    <p>{text}</p>
+                  </article>
+                );
+              })}
             </div>
           </div>
         </section>
 
-        <section className="section container" id="catalog">
-          <div className="section-top">
+        {/* What it is */}
+        <section className="section section-tint" id="product">
+          <div className="container split">
             <div>
-              <p className="eyebrow section-number">{t.catalogLabel}</p>
-              <h2>{t.catalogTitle}</h2>
-            </div>
-            <p className="section-description">{t.catalogIntro}</p>
-          </div>
-          <Tabs
-            value={category}
-            onValueChange={(value) => setCategory(value as Category)}
-          >
-            <div className="catalog-toolbar">
-              <TabsList
-                aria-label={
-                  language === "ru" ? "Рекомендуемая обжарка кофе" : "Recommended coffee roast"
-                }
-              >
-                {categories.map((item) => (
-                  <TabsTrigger key={item} value={item}>
-                    {item === "all" ? (language === "ru" ? "Все обжарки" : "All roasts") : roastLabels[language][item]}
-                  </TabsTrigger>
-                ))}
-              </TabsList>
-              <span className="preview-note">
-                <span />
-                {t.demo}
-              </span>
-            </div>
-            <TabsContent value={category}>
-              <div className="product-grid" aria-live="polite">
-                {products
-                  .filter(
-                    (product) =>
-                      category === "all" || product.roasts.includes(category),
-                  )
-                  .map((product) => (
-                    <article className="product-card" key={product.name} id={`blend-${product.name.split(" ")[1]}`}>
-                      <div className="product-image-wrap">
-                        <Badge variant="secondary" className="product-weight">
-                          {product.roasts.map((r) => roastLabels[language][r]).join(" / ")}
-                        </Badge>
-                        <ProductArt product={product} />
-                      </div>
-                      <div className="product-title-line">
-                        <h3>{product.name}</h3>
-                        <span className="product-category-icon">
-                          <Bean size={15} strokeWidth={1.3} />
-                        </span>
-                      </div>
-                      <p className="tasting-notes">{product[language].meaning}</p>
-                      <details className="product-details">
-                        <summary>{language === "ru" ? "Состав и профиль" : "Ingredients & profile"}<ChevronDown size={16} /></summary>
-                      <dl className="blend-spec">
-                        <dt>{language === "ru" ? "Ожидаемый профиль" : "Expected flavour"}</dt>
-                        <dd>{product[language].profile}</dd>
-                        <dt>{language === "ru" ? "Состав" : "Ingredients"}</dt>
-                        <dd>{product[language].ingredients}</dd>
-                        <dt>{language === "ru" ? "Рекомендуемая обжарка кофе" : "Recommended coffee roast"}</dt>
-                        <dd>{product.roasts.map((r) => roastLabels[language][r]).join(" / ")}</dd>
-                      </dl>
-                      </details>
-                    </article>
-                  ))}
-              </div>
-            </TabsContent>
-          </Tabs>
-          <p className="catalog-disclaimer">{t.productNote}</p>
-        </section>
-
-        <div className="container benefits">
-          {t.benefits.map(([title, description], i) => {
-            const Icon = [Bean, Package, MapPin][i];
-            return (
-              <div className="benefit" key={title}>
-                <Icon size={25} strokeWidth={1.3} />
-                <div>
-                  <h3>{title}</h3>
-                  <p>{description}</p>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-
-        <section className="about-section" id="about">
-          <div className="container about-grid">
-            <div className="about-heading">
-              <p className="eyebrow section-number">{t.aboutLabel}</p>
-              <h2>{t.aboutTitle}</h2>
-              <div className="about-drawing" aria-hidden="true">
-                <Coffee size={94} strokeWidth={0.75} />
-                <span>
-                  GOOD COFFEE.
-                  <br />
-                  GOOD COMPANY.
-                </span>
-                <Leaf size={39} strokeWidth={1} />
-              </div>
-            </div>
-            <div className="about-copy">
-              <p className="about-lead">{t.aboutText}</p>
-              <p>{t.aboutText2}</p>
-              <ul>
-                {t.aboutPoints.map((point) => (
-                  <li key={point}>
-                    <Check size={16} />
-                    {point}
+              <SectionHead label={t.what.label} title={t.what.title} />
+              <p className="body-text">{t.what.text}</p>
+              <h3 className="sub-title">{t.what.formsTitle}</h3>
+              <ul className="forms">
+                {t.what.forms.map(([title, text], i) => (
+                  <li key={title} className={i === 2 ? "is-soon" : ""}>
+                    <strong>
+                      {title}
+                      {i === 2 && <span className="soon">{t.ui.soon}</span>}
+                    </strong>
+                    <span>{text}</span>
                   </li>
                 ))}
               </ul>
-              <a className="text-link" href="#contacts">
-                {t.contact}
-                <ArrowUpRight size={18} />
-              </a>
-              <span className="about-caption">{t.aboutCaption}</span>
+              <p className="notice">{t.what.note}</p>
+              <p className="lab">
+                <FlaskConical size={18} aria-hidden="true" />
+                {t.what.lab}
+              </p>
+            </div>
+            <div className="photo-stack">
+              <Photo file="roasted-chickpeas.webp" alt="" badge={t.ui.placeholderPhoto} />
+              <Photo file="roasted-barley.webp" alt="" badge={t.ui.placeholderPhoto} />
+              <Photo file="coffee-beans.webp" alt="" badge={t.ui.placeholderPhoto} className="wide" />
             </div>
           </div>
         </section>
 
-        <section className="section container offers-section" id="offers">
-          <div className="section-top">
-            <div>
-              <p className="eyebrow section-number">{t.offersLabel}</p>
-              <h2>{t.offersTitle}</h2>
-            </div>
-            <p className="section-description">{t.offersIntro}</p>
-          </div>
-          <div className="offers-grid">
-            {[0, 1].map((i) => (
-              <article className={`offer-card offer-${i}`} key={i}>
-                <Badge variant="outline" className="coming-badge">
-                  <span />
-                  {t.comingSoon}
-                </Badge>
-                <div className="offer-art" aria-hidden="true">
-                  {i === 0 ? (
-                    <Coffee size={100} strokeWidth={0.75} />
-                  ) : (
-                    <Package size={100} strokeWidth={0.75} />
-                  )}
-                </div>
-                <h3>{i === 0 ? t.offer1Title : t.offer2Title}</h3>
-                <p>{i === 0 ? t.offer1Text : t.offer2Text}</p>
-                <Button variant="outline" disabled className="offer-button">
-                  {t.offerButton}
-                  <ArrowUpRight size={16} />
-                </Button>
-              </article>
-            ))}
-          </div>
-          <p className="catalog-disclaimer">{t.offerDisclaimer}</p>
-        </section>
-
-        <section className="contacts-section" id="contacts">
+        {/* How it works */}
+        <section className="section" id="how">
           <div className="container">
-            <div className="contacts-top">
-              <div>
-                <p className="eyebrow section-number">{t.contactsLabel}</p>
-                <h2>{t.contactsTitle}</h2>
-                <p className="contacts-intro">{t.contactsIntro}</p>
+            <SectionHead label={t.how.label} title={t.how.title} />
+            <ol className="steps">
+              {t.how.steps.map(([title, text], i) => (
+                <li key={title}>
+                  <span className="step-num">{String(i + 1).padStart(2, "0")}</span>
+                  <h3>{title}</h3>
+                  <p>{fill(text, lang)}</p>
+                </li>
+              ))}
+            </ol>
+            <figure className="ratio">
+              <figcaption>{t.how.diagram}</figcaption>
+              <div className="ratio-bar">
+                <span className="ratio-coffee" style={{ flexBasis: `${100 - PH.blendSharePct}%` }}>
+                  {t.how.coffee} <Ph>{100 - PH.blendSharePct}%</Ph>
+                </span>
+                <span className="ratio-base" style={{ flexBasis: `${PH.blendSharePct}%` }}>
+                  {t.how.base} <Ph>{PH.blendSharePct}%</Ph>
+                </span>
               </div>
-              <span className="contact-star" aria-hidden="true">
-                ✳
-              </span>
+              <ul className="chips">
+                {t.how.methods.map((m) => (
+                  <li key={m}>{m}</li>
+                ))}
+              </ul>
+            </figure>
+          </div>
+        </section>
+
+        {/* Savings calculator */}
+        <section className="section section-dark" id="savings">
+          <div className="container">
+            <SectionHead label={t.calc.label} title={t.calc.title} intro={t.calc.intro} />
+            <Calculator t={t.calc} lang={lang} />
+          </div>
+        </section>
+
+        {/* Segments */}
+        <section className="section" id="for">
+          <div className="container">
+            <SectionHead label={t.segments.label} title={t.segments.title} />
+            <div className="segments">
+              {t.segments.items.map(([title, text, tag], i) => {
+                const photo = ["cezve.webp", "vending.webp", "roasted-barley.webp", "roastery.webp"][i];
+                return (
+                  <article className="segment" key={title}>
+                    <Photo file={photo} alt="" badge={t.ui.placeholderPhoto} />
+                    <div>
+                      <span className="tag">{tag}</span>
+                      <h3>{title}</h3>
+                      <p>{text}</p>
+                    </div>
+                  </article>
+                );
+              })}
             </div>
-            <div className="contact-grid">
-              <div className="contact-item">
-                <MapPin size={21} strokeWidth={1.4} />
-                <span className="contact-label">{t.address}</span>
-                <h3>{t.addressValue}</h3>
-                <p>{t.addressPlaceholder}</p>
-              </div>
-              <div className="contact-item">
-                <Phone size={21} strokeWidth={1.4} />
-                <span className="contact-label">{t.phone}</span>
-                <h3>+7 (8362) 00-00-00</h3>
-                <p>{t.placeholder}</p>
-              </div>
-              <div className="contact-item">
-                <Mail size={21} strokeWidth={1.4} />
-                <span className="contact-label">{t.email}</span>
-                <h3>hello@coffeestock.example</h3>
-                <p>{t.placeholder}</p>
-              </div>
+          </div>
+        </section>
+
+        {/* Bases */}
+        <section className="section section-tint" id="bases">
+          <div className="container">
+            <SectionHead label={t.bases.label} title={t.bases.title} intro={t.bases.intro} />
+            <div className="bases">
+              {products.map((p, i) => (
+                <article className="base" key={p.name}>
+                  <div className="base-top">
+                    <span className="base-num">{String(i + 1).padStart(2, "0")}</span>
+                    {p.method && <span className="tag tag-solid">{p.method === "jazzve" ? t.bases.jazzve : t.bases.espresso}</span>}
+                  </div>
+                  <h3>
+                    COFFEGIO <strong>{p.name.replace("COFFEGIO ", "")}</strong>
+                  </h3>
+                  <p className="base-meaning">{p[lang].meaning}</p>
+                  <dl className="base-meta">
+                    <dt>{t.bases.roast}</dt>
+                    <dd>{p.roasts.map((r) => roastLabels[lang][r]).join(" / ")}</dd>
+                  </dl>
+                  <span className={`allergen ${p.nuts ? "has-nuts" : ""}`}>{p.nuts ? t.bases.nuts : t.bases.noNuts}</span>
+                  <details>
+                    <summary>
+                      {t.bases.more}
+                      <ChevronDown size={16} aria-hidden="true" />
+                    </summary>
+                    <dl className="base-meta">
+                      <dt>{t.bases.profile}</dt>
+                      <dd>{p[lang].profile}</dd>
+                      <dt>{t.bases.ingredients}</dt>
+                      <dd>{p[lang].ingredients}</dd>
+                    </dl>
+                  </details>
+                </article>
+              ))}
             </div>
-            <div className="contact-bottom">
-              <div>
-                <h3>{t.socialTitle}</h3>
-                <p>{t.socialHint}</p>
-              </div>
-              <div className="social-links">
-                <a
-                  href="https://example.com/coffee-stock/telegram"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`Telegram — ${t.placeholder}`}
-                >
-                  <Send size={16} />
-                  Telegram
-                  <ArrowUpRight size={15} />
+          </div>
+        </section>
+
+        {/* Video */}
+        <section className="section" id="video">
+          <div className="container split split-video">
+            <div>
+              <SectionHead label={t.video.label} title={t.video.title} />
+              <p className="body-text">{t.video.text}</p>
+            </div>
+            <figure className="photo video">
+              <video controls muted playsInline loop preload="metadata" poster={media("espresso-video-poster.webp")}>
+                <source src={media("espresso-video.webm")} type="video/webm" />
+              </video>
+              <span className="ph-badge">{t.ui.placeholderVideo}</span>
+            </figure>
+          </div>
+        </section>
+
+        {/* Samples / trial */}
+        <section className="section section-tint" id="samples">
+          <div className="container">
+            <SectionHead label={t.samples.label} title={t.samples.title} intro={t.samples.intro} />
+            <div className="trial">
+              <ol className="trial-steps">
+                {t.samples.steps.map(([title, text], i) => (
+                  <li key={title}>
+                    <span className="step-num">{i + 1}</span>
+                    <div>
+                      <h3>{title}</h3>
+                      <p>{fill(text, lang)}</p>
+                    </div>
+                  </li>
+                ))}
+              </ol>
+              <aside className="checklist">
+                <h3>{t.samples.checklistTitle}</h3>
+                <ul>
+                  {t.samples.checklist.map((item) => (
+                    <li key={item}>
+                      <Check size={17} aria-hidden="true" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <a className="btn btn-primary" href="#contacts">
+                  {t.samples.cta}
+                  <ArrowRight size={17} />
                 </a>
-                <a
-                  href="https://example.com/coffee-stock/vk"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={`VK — ${t.placeholder}`}
-                >
-                  <strong>vk</strong>
-                  {language === "ru" ? "ВКонтакте" : "VK"}
-                  <ArrowUpRight size={15} />
+              </aside>
+            </div>
+          </div>
+        </section>
+
+        {/* Documents */}
+        <section className="section" id="documents">
+          <div className="container">
+            <SectionHead label={t.docs.label} title={t.docs.title} intro={t.docs.intro} />
+            <div className="docs">
+              {t.docs.items.map(([title, text]) => (
+                <article className="doc" key={title}>
+                  <div className="doc-sheet" aria-hidden="true">
+                    <FileText size={30} strokeWidth={1.2} />
+                    <span className="doc-lines" />
+                    <span className="doc-stamp">{t.ui.sample}</span>
+                  </div>
+                  <h3>{title}</h3>
+                  <p>{text}</p>
+                </article>
+              ))}
+            </div>
+            <p className="fine">
+              <Ph>{t.docs.note}</Ph>
+            </p>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="section section-tint" id="faq">
+          <div className="container narrow">
+            <SectionHead label={t.faq.label} title={t.faq.title} />
+            <div className="faq">
+              {t.faq.items.map(([q, a]) => (
+                <details key={q}>
+                  <summary>
+                    {q}
+                    <ChevronDown size={18} aria-hidden="true" />
+                  </summary>
+                  <p>{fill(a, lang)}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Contacts */}
+        <section className="section section-dark" id="contacts">
+          <div className="container split">
+            <div>
+              <SectionHead label={t.contacts.label} title={t.contacts.title} intro={t.contacts.intro} />
+              <ul className="contact-list">
+                <li>
+                  <MapPin size={19} aria-hidden="true" />
+                  <span>
+                    <small>{t.contacts.address}</small>
+                    <Ph>{t.contacts.addressValue}</Ph>
+                  </span>
+                </li>
+                <li>
+                  <Phone size={19} aria-hidden="true" />
+                  <span>
+                    <small>{t.contacts.phone}</small>
+                    <a href={`tel:${PH.contacts.phone.replace(/[^\d+]/g, "")}`}>
+                      <Ph>{PH.contacts.phone}</Ph>
+                    </a>
+                  </span>
+                </li>
+                <li>
+                  <Mail size={19} aria-hidden="true" />
+                  <span>
+                    <small>{t.contacts.email}</small>
+                    <a href={`mailto:${PH.contacts.email}`}>
+                      <Ph>{PH.contacts.email}</Ph>
+                    </a>
+                  </span>
+                </li>
+              </ul>
+              <p className="messengers-title">{t.contacts.messengers}</p>
+              <div className="messengers">
+                <a href={PH.contacts.telegram} target="_blank" rel="noopener noreferrer">
+                  <Send size={16} aria-hidden="true" />
+                  <Ph>Telegram</Ph>
+                </a>
+                <a href={PH.contacts.vk} target="_blank" rel="noopener noreferrer">
+                  <strong aria-hidden="true">vk</strong>
+                  <Ph>{lang === "ru" ? "ВКонтакте" : "VK"}</Ph>
                 </a>
               </div>
             </div>
-            <p className="contact-notice">{t.contactNotice}</p>
+            <form className="request-form" onSubmit={submit}>
+              <label>
+                {t.contacts.company}
+                <input name="company" autoComplete="organization" />
+              </label>
+              <label>
+                {t.contacts.name}
+                <input name="name" autoComplete="name" />
+              </label>
+              <label className="full">
+                {t.contacts.contact}
+                <input name="contact" required autoComplete="email" />
+              </label>
+              <label>
+                {t.contacts.product}
+                <input name="product" />
+              </label>
+              <label>
+                {t.contacts.method}
+                <input name="method" />
+              </label>
+              <label>
+                {t.contacts.coffeePrice}
+                <input name="coffeePrice" />
+              </label>
+              <label>
+                {t.contacts.volume}
+                <input name="volume" />
+              </label>
+              <button className="btn btn-primary full" type="submit">
+                {t.contacts.submit}
+                <ArrowRight size={17} />
+              </button>
+              <p className="fine full">{t.contacts.formNote}</p>
+            </form>
           </div>
         </section>
       </main>
-      <footer>
+
+      <footer className="footer">
         <div className="container footer-top">
-          <div className="footer-brand">
-            <Brand light />
-            <span>{t.footerText}</span>
-          </div>
-          <a href="#" className="back-top">
-            {t.backTop}
-            <ArrowDown className="rotate-180" size={16} />
+          <Brand light />
+          <p>{t.footer.text}</p>
+          <a href="#top" className="back-top">
+            {t.ui.backTop} ↑
           </a>
         </div>
         <div className="container footer-bottom">
           <span>
-            © {new Date().getFullYear()} Coffee Stock. {t.rights}
+            © {new Date().getFullYear()} Coffee Stock. {t.footer.rights}
           </span>
-          <span>
-            {t.location}
-            <ChevronRight size={12} />
-          </span>
+          <span>{t.footer.credits}</span>
         </div>
       </footer>
     </>
