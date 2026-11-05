@@ -8,4 +8,13 @@ export default defineConfig({
   // Relative assets work on both GitHub Pages project paths and custom domains.
   base: "./",
   resolve: { alias: { "@": fileURLToPath(new URL("./src", import.meta.url)) } },
+  build: {
+    rollupOptions: {
+      // Unlinked internal page served at /research/.
+      input: {
+        main: fileURLToPath(new URL("./index.html", import.meta.url)),
+        research: fileURLToPath(new URL("./research/index.html", import.meta.url)),
+      },
+    },
+  },
 });

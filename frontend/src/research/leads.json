@@ -1,0 +1,3702 @@
+[
+ {
+  "id": 1,
+  "company": "\"Armen-Hamik Eghbayrner\" JV LLC (ORIGINAL, KING, VERJINE, CHERNOE ZOLOTO)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Abovyan / Geghashen (Kotayk)",
+   "ru": "Абовян / Гегашен (Котайк)"
+  },
+  "segment": {
+   "en": "Coffee processor & packer",
+   "ru": "Переработчик и фасовщик кофе"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Ground and instant coffee brands; KING instant cold coffee; food import",
+   "ru": "Бренды молотого и растворимого кофе; растворимый холодный кофе KING; импорт продуктов питания"
+  },
+  "fit": {
+   "en": "Mid-size mass-market jazzve brands",
+   "ru": "Средние массовые бренды кофе для джезвы"
+  },
+  "website": "http://www.originalcoffee.am",
+  "contact": {
+   "en": "+374 91 403935; +374 222 25909",
+   "ru": "+374 91 403935; +374 222 25909"
+  },
+  "source": "https://www.spyur.am/en/companies/armen-hamik-eghbayrner/4573",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 2,
+  "company": "\"Kaffa\" Coffee Processing Plant",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Roaster/grinder, white label, 3-in-1",
+   "ru": "Обжарка/помол, white label, 3-в-1"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Ground oriental coffee, espresso, beans, 3-in-1/4-in-1, instant powder; white-label production",
+   "ru": "Молотый восточный кофе, эспрессо, зерно, 3-в-1/4-в-1, растворимый порошок; производство под white label"
+  },
+  "fit": {
+   "en": "Ground coffee + private label",
+   "ru": "Молотый кофе + СТМ"
+  },
+  "website": "http://www.kaffa.am",
+  "contact": {
+   "en": "sales@kaffa.am; info@kaffa.am; +374 44 505151; +374 60 505151; +374 96 799997",
+   "ru": "sales@kaffa.am; info@kaffa.am; +374 44 505151; +374 60 505151; +374 96 799997"
+  },
+  "source": "https://www.spyur.am/en/companies/kaffa-coffee-processing-plant/42654",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 3,
+  "company": "\"Cafe du Brazil\" Coffee Production Shop LLC",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Roaster/grinder, white label",
+   "ru": "Обжарка/помол, white label"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Roasted and ground coffee, espresso, capsules; IPNOSI brand; white-label",
+   "ru": "Обжаренный и молотый кофе, эспрессо, капсулы; бренд IPNOSI; white label"
+  },
+  "fit": {
+   "en": "Ground coffee + private label",
+   "ru": "Молотый кофе + СТМ"
+  },
+  "website": "http://www.cafedubrazil.am",
+  "contact": {
+   "en": "+374 10 448409; +374 55 820292",
+   "ru": "+374 10 448409; +374 55 820292"
+  },
+  "source": "https://www.spyur.am/en/companies/cafe-du-brazil-coffee-production-shop/2110",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 4,
+  "company": "Raffael Contini Trading Company JV LLC (RIO GRANDE)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Ground-coffee brand / producer",
+   "ru": "Бренд / производитель молотого кофе"
+  },
+  "priority": "A",
+  "products": {
+   "en": "RIO GRANDE ground coffee, Classic Arabika, cereals",
+   "ru": "Молотый кофе RIO GRANDE, Classic Arabika, крупы"
+  },
+  "fit": {
+   "en": "Mass-market ground coffee",
+   "ru": "Массовый молотый кофе"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 10 442810; +374 10 443807",
+   "ru": "+374 10 442810; +374 10 443807"
+  },
+  "source": "https://www.spyur.am/en/companies/raffael-contini-trading-company/3831",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 5,
+  "company": "Vana Group Co. Ltd (LEADER coffee)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "FMCG producer with coffee line",
+   "ru": "FMCG-производитель с кофейной линейкой"
+  },
+  "priority": "A",
+  "products": {
+   "en": "LEADER coffee; Lider Cola, ZUZU drinks, snacks",
+   "ru": "Кофе LEADER; напитки Lider Cola, ZUZU, снеки"
+  },
+  "fit": {
+   "en": "Budget FMCG coffee line",
+   "ru": "Бюджетная FMCG-линейка кофе"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 10 207363; +374 77 407677",
+   "ru": "+374 10 207363; +374 77 407677"
+  },
+  "source": "https://www.spyur.am/en/companies/vana-group/7114",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 6,
+  "company": "Martin Star (OT MARTINA)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "FMCG producer with coffee/3-in-1 line",
+   "ru": "FMCG-производитель с линейкой кофе/3-в-1"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Ground coffee and 3-in-1 (OT MARTINA), chips, seeds, canned food",
+   "ru": "Молотый кофе и 3-в-1 (OT MARTINA), чипсы, семечки, консервы"
+  },
+  "fit": {
+   "en": "Budget FMCG coffee line",
+   "ru": "Бюджетная FMCG-линейка кофе"
+  },
+  "website": "https://martinstar.am/en/",
+  "contact": {
+   "en": "+374 94 060622; +374 91 352757",
+   "ru": "+374 94 060622; +374 91 352757"
+  },
+  "source": "https://www.spyur.am/en/companies/martin-star/7297",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 7,
+  "company": "Zenoffe",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Jrvezh (Kotayk)",
+   "ru": "Джрвеж (Котайк)"
+  },
+  "segment": {
+   "en": "Roaster, private label, exporter",
+   "ru": "Обжарщик, СТМ, экспортёр"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Beans, ground (incl. Armenian style), 3-in-1, drip bags; custom blends/private label",
+   "ru": "Зерно, молотый (в т.ч. по-армянски), 3-в-1, дрип-пакеты; индивидуальные смеси/СТМ"
+  },
+  "fit": {
+   "en": "Private-label roaster",
+   "ru": "Обжарщик под СТМ"
+  },
+  "website": "https://zenoffe.com",
+  "contact": {
+   "en": "+374 43 444144; +374 98 227204",
+   "ru": "+374 43 444144; +374 98 227204"
+  },
+  "source": "https://www.spyur.am/en/companies/zenoffe/58629",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 8,
+  "company": "Arahet Development",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Vending / office coffee / HoReCa supplier",
+   "ru": "Вендинг / офисный кофе / поставщик HoReCa"
+  },
+  "priority": "A",
+  "products": {
+   "en": "B2B coffee, vending and office machines, rental, telemetry; Caffe Milano, Pellini",
+   "ru": "B2B-кофе, вендинговые и офисные машины, аренда, телеметрия; Caffe Milano, Pellini"
+  },
+  "fit": {
+   "en": "Supplies coffee to vending & office clients",
+   "ru": "Поставляет кофе вендинговым и офисным клиентам"
+  },
+  "website": "https://arahet.com",
+  "contact": {
+   "en": "+374 10 264165; +374 94 264165",
+   "ru": "+374 10 264165; +374 94 264165"
+  },
+  "source": "https://www.spyur.am/en/companies/arahet-development-b2b-universal-coffee-company-specialized-in-the-sale-of-coffee-and-professional-coffee-equipment-business-coffee-solutions-design-and-service/6479",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 9,
+  "company": "Art Global LLC (Vending Market / DOLCE)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan (+Gyumri, Vanadzor)",
+   "ru": "Ереван (+Гюмри, Ванадзор)"
+  },
+  "segment": {
+   "en": "Vending ingredients & HoReCa supplier",
+   "ru": "Вендинговые ингредиенты и поставщик HoReCa"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Necta machines; espresso, instant coffee, cocoa, milk powder for machines; cups; DOLCE brand",
+   "ru": "Автоматы Necta; эспрессо, растворимый кофе, какао, сухое молоко для автоматов; стаканы; бренд DOLCE"
+  },
+  "fit": {
+   "en": "Sells consumables to vending operators",
+   "ru": "Продаёт расходники вендинг-операторам"
+  },
+  "website": "http://www.vendingmarket.am",
+  "contact": {
+   "en": "+374 44 007008; +374 44 008007; +374 43 090600",
+   "ru": "+374 44 007008; +374 44 008007; +374 43 090600"
+  },
+  "source": "https://www.spyur.am/en/companies/art-global/36585",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 10,
+  "company": "Smart Coffee",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Office coffee / self-service / vending",
+   "ru": "Офисный кофе / самообслуживание / вендинг"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Self-service coffee stations, rental, vending; supplies coffee and dry mixes",
+   "ru": "Кофейные станции самообслуживания, аренда, вендинг; поставляет кофе и сухие смеси"
+  },
+  "fit": {
+   "en": "Rental + dry-mix supply",
+   "ru": "Аренда + поставка сухих смесей"
+  },
+  "website": "https://smartcoffee.am/en/",
+  "contact": {
+   "en": "+374 55 422420",
+   "ru": "+374 55 422420"
+  },
+  "source": "https://smartcoffee.am/en/",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 11,
+  "company": "Art of the break (operator to identify)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Coffee vending network",
+   "ru": "Сеть кофейных автоматов"
+  },
+  "priority": "A",
+  "products": {
+   "en": "43 coffee vending locations (2GIS)",
+   "ru": "43 точки кофейных автоматов (2GIS)"
+  },
+  "fit": {
+   "en": "Large price-driven vending network",
+   "ru": "Крупная вендинговая сеть, ориентированная на цену"
+  },
+  "website": "",
+  "contact": {
+   "en": "",
+   "ru": ""
+  },
+  "source": "https://2gis.am/ru/yerevan/firm/70000001083974712",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 12,
+  "company": "Арт кофе / Art Coffee (operator to identify)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Coffee vending network",
+   "ru": "Сеть кофейных автоматов"
+  },
+  "priority": "A",
+  "products": {
+   "en": "28 24h coffee vending points (hospitals, Komitas)",
+   "ru": "28 круглосуточных кофейных автоматов (больницы, Комитас)"
+  },
+  "fit": {
+   "en": "Price-driven vending network",
+   "ru": "Вендинговая сеть, ориентированная на цену"
+  },
+  "website": "",
+  "contact": {
+   "en": "",
+   "ru": ""
+  },
+  "source": "https://2gis.am/ru/yerevan/firm/70000001087585582",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 13,
+  "company": "Venda Co. Ltd / Chaicoff chain",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Roaster/packer, 3-in-1, importer",
+   "ru": "Обжарщик/фасовщик, 3-в-1, импортёр"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Fresh-roasted coffee CHAICOFF, VENDA 3-in-1, creamer, TEIDA tea; ~16 shops (says it is top-3, may be large)",
+   "ru": "Свежеобжаренный кофе CHAICOFF, VENDA 3-в-1, сливки, чай TEIDA; ~16 магазинов (заявляет о входе в топ-3, может быть крупной)"
+  },
+  "fit": {
+   "en": "Own-brand packer + mixes",
+   "ru": "Фасовщик собственного бренда + смеси"
+  },
+  "website": "https://venda.am",
+  "contact": {
+   "en": "+374 11 256511",
+   "ru": "+374 11 256511"
+  },
+  "source": "https://www.spyur.am/en/companies/chaicoff-specialty-chain-store-for-tea-and-coffee/4777",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 14,
+  "company": "Apache Group LLC",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Abovyan (Kotayk)",
+   "ru": "Абовян (Котайк)"
+  },
+  "segment": {
+   "en": "Snack producer with coffee line",
+   "ru": "Производитель снеков с кофейной линейкой"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Ground coffee (per Spyur), chips, crackers, seeds (APACHE)",
+   "ru": "Молотый кофе (по данным Spyur), чипсы, крекеры, семечки (APACHE)"
+  },
+  "fit": {
+   "en": "Price-driven snack/coffee maker",
+   "ru": "Производитель снеков/кофе, ориентированный на цену"
+  },
+  "website": "http://www.apache.am",
+  "contact": {
+   "en": "+374 93 330750; +374 222 20120",
+   "ru": "+374 93 330750; +374 222 20120"
+  },
+  "source": "https://www.spyur.am/en/companies/apache/29374",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 15,
+  "company": "\"Fika\" Coffee and Tea Production Company",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Ayntap (Ararat)",
+   "ru": "Айнтап (Арарат)"
+  },
+  "segment": {
+   "en": "Coffee producer/importer",
+   "ru": "Производитель/импортёр кофе"
+  },
+  "priority": "B",
+  "products": {
+   "en": "FIKA coffee and tea",
+   "ru": "Кофе и чай FIKA"
+  },
+  "fit": {
+   "en": "Small local coffee brand",
+   "ru": "Небольшой местный кофейный бренд"
+  },
+  "website": "http://fika.am",
+  "contact": {
+   "en": "+374 44 411111",
+   "ru": "+374 44 411111"
+  },
+  "source": "https://www.spyur.am/en/companies/fika-coffee-and-tea-production-company/50419",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 16,
+  "company": "\"Coffee Masters\" (AGG-Group LLC)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Coffee & spice producer, wholesale",
+   "ru": "Производитель кофе и специй, опт"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Coffee Masters coffee, Pinch spices",
+   "ru": "Кофе Coffee Masters, специи Pinch"
+  },
+  "fit": {
+   "en": "Small producer/wholesaler",
+   "ru": "Небольшой производитель/оптовик"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 41 590405",
+   "ru": "+374 41 590405"
+  },
+  "source": "https://www.spyur.am/en/companies/coffee-masters-tea-coffee-and-spice-production-and-wholesale-trading-company/49553",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 17,
+  "company": "\"Bnakan A\" LLC (GAZAN COFFEE)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Vanadzor",
+   "ru": "Ванадзор"
+  },
+  "segment": {
+   "en": "Coffee & spice producer",
+   "ru": "Производитель кофе и специй"
+  },
+  "priority": "B",
+  "products": {
+   "en": "GAZAN COFFEE, BNAKANA, CHIPSON; spices",
+   "ru": "GAZAN COFFEE, BNAKANA, CHIPSON; специи"
+  },
+  "fit": {
+   "en": "Regional small coffee brand",
+   "ru": "Небольшой региональный кофейный бренд"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 43 243624",
+   "ru": "+374 43 243624"
+  },
+  "source": "https://www.spyur.am/en/companies/bnakan-a/54465",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 18,
+  "company": "\"Lilen\" (TERRA CAFFE)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Small coffee producer",
+   "ru": "Небольшой производитель кофе"
+  },
+  "priority": "B",
+  "products": {
+   "en": "TERRA CAFFE coffee; flax seeds",
+   "ru": "Кофе TERRA CAFFE; семена льна"
+  },
+  "fit": {
+   "en": "Micro ground-coffee brand",
+   "ru": "Микробренд молотого кофе"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 33 304045",
+   "ru": "+374 33 304045"
+  },
+  "source": "https://www.spyur.am/en/companies/lilen/59693",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 19,
+  "company": "\"Armenian Kingdom\" (Patriots LLC)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Zovuni (Kotayk)",
+   "ru": "Зовуни (Котайк)"
+  },
+  "segment": {
+   "en": "Coffee & dried-fruit producer",
+   "ru": "Производитель кофе и сухофруктов"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Coffee, tea, dried fruits",
+   "ru": "Кофе, чай, сухофрукты"
+  },
+  "fit": {
+   "en": "Small local producer",
+   "ru": "Небольшой местный производитель"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 93 712117",
+   "ru": "+374 93 712117"
+  },
+  "source": "https://www.spyur.am/en/companies/armenian-kingdom/44898",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 20,
+  "company": "\"Rumba\" LLC / \"Makarena\" LLC",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Balahovit (Kotayk)",
+   "ru": "Балаовит (Котайк)"
+  },
+  "segment": {
+   "en": "Coffee producer",
+   "ru": "Производитель кофе"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Listed coffee producer; related coffee shop",
+   "ru": "Указан как производитель кофе; связанная кофейня"
+  },
+  "fit": {
+   "en": "Small coffee producer",
+   "ru": "Небольшой производитель кофе"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 95 070999",
+   "ru": "+374 95 070999"
+  },
+  "source": "https://www.spyur.am/en/companies/rumba/53552",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 21,
+  "company": "\"L.A.R. Group\" Co. Ltd",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Gyumri",
+   "ru": "Гюмри"
+  },
+  "segment": {
+   "en": "Food producer (drinks & coffee)",
+   "ru": "Пищевой производитель (напитки и кофе)"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Listed under carbonated drinks and coffee production",
+   "ru": "Указан в разделах газированных напитков и производства кофе"
+  },
+  "fit": {
+   "en": "Regional producer",
+   "ru": "Региональный производитель"
+  },
+  "website": "http://www.largroup.am",
+  "contact": {
+   "en": "+374 94 053004",
+   "ru": "+374 94 053004"
+  },
+  "source": "https://www.spyur.am/en/companies/lar-group/43558",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 22,
+  "company": "\"The Coffee 23.5\" / Coffee Project Co. Ltd",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Roaster/importer + shop",
+   "ru": "Обжарщик/импортёр + магазин"
+  },
+  "priority": "B",
+  "products": {
+   "en": "35+ fresh-roasted coffees incl. robusta, flavoured; packaged",
+   "ru": "35+ свежеобжаренных сортов, в т.ч. робуста, ароматизированные; фасованные"
+  },
+  "fit": {
+   "en": "Roasts and packs own coffee",
+   "ru": "Обжаривает и фасует собственный кофе"
+  },
+  "website": "http://coffeemarket.am",
+  "contact": {
+   "en": "thecoffeearmenia@gmail.com; +374 91 194224",
+   "ru": "thecoffeearmenia@gmail.com; +374 91 194224"
+  },
+  "source": "https://www.spyur.am/en/companies/the-coffee-235-tea-and-coffee-specialty-shop-cafe/42503",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 23,
+  "company": "Hayk Coffee LLC",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Roastery (B2B/B2C)",
+   "ru": "Обжарочная (B2B/B2C)"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Commercial and specialty roasted coffee",
+   "ru": "Коммерческий и specialty обжаренный кофе"
+  },
+  "fit": {
+   "en": "Roastery with commercial B2B line",
+   "ru": "Обжарочная с коммерческой B2B-линейкой"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 41 200041",
+   "ru": "+374 41 200041"
+  },
+  "source": "https://www.spyur.am/en/companies/hayk-coffee/48980",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 24,
+  "company": "\"Coffee Burmunq\" LLC",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Coffee producer + shop",
+   "ru": "Производитель кофе + магазин"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Listed coffee producer with retail shop",
+   "ru": "Указан как производитель кофе с розничным магазином"
+  },
+  "fit": {
+   "en": "Small local producer",
+   "ru": "Небольшой местный производитель"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 98 901515",
+   "ru": "+374 98 901515"
+  },
+  "source": "https://www.spyur.am/en/companies/coffee-burmunq/48409",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 25,
+  "company": "\"Afrobeancoffee\" LLC",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Coffee producer + shop",
+   "ru": "Производитель кофе + магазин"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Listed coffee producer; Afrobean coffee shop",
+   "ru": "Указан как производитель кофе; кофейня Afrobean"
+  },
+  "fit": {
+   "en": "Small producer",
+   "ru": "Небольшой производитель"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 33 401402",
+   "ru": "+374 33 401402"
+  },
+  "source": "https://www.spyur.am/en/companies/afrobeancoffee/49270",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 26,
+  "company": "Nero Bean Coffee Roastery",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan (Komitas area)",
+   "ru": "Ереван (район Комитаса)"
+  },
+  "segment": {
+   "en": "Small roastery",
+   "ru": "Небольшая обжарочная"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Budget-priced roasted coffee for take-home",
+   "ru": "Недорогой обжаренный кофе на вынос"
+  },
+  "fit": {
+   "en": "Low-cost small roaster",
+   "ru": "Бюджетный небольшой обжарщик"
+  },
+  "website": "",
+  "contact": {
+   "en": "",
+   "ru": ""
+  },
+  "source": "https://absolutearmenia.com/?p=5705",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 27,
+  "company": "ArmVending LLC",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Vending equipment & service",
+   "ru": "Вендинговое оборудование и сервис"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Vending machines, spare parts, coffee machine sales and repair",
+   "ru": "Вендинговые автоматы, запчасти, продажа и ремонт кофемашин"
+  },
+  "fit": {
+   "en": "Close to operator base",
+   "ru": "Близок к базе операторов"
+  },
+  "website": "https://armvending.am",
+  "contact": {
+   "en": "+374 10 720102; info@armvending.am",
+   "ru": "+374 10 720102; info@armvending.am"
+  },
+  "source": "https://www.spyur.am/en/companies/armvending/45989",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 28,
+  "company": "Original Vending",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Vending operator / importer",
+   "ru": "Вендинг-оператор / импортёр"
+  },
+  "priority": "B",
+  "products": {
+   "en": "ICS rep, Necta/Zanussi partner, since 2003",
+   "ru": "Представитель ICS, партнёр Necta/Zanussi, с 2003 г."
+  },
+  "fit": {
+   "en": "Small vending firm",
+   "ru": "Небольшая вендинговая компания"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 98 433343; +374 96 434444",
+   "ru": "+374 98 433343; +374 96 434444"
+  },
+  "source": "https://www.spyur.am/en/companies/original-vending/41507",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 29,
+  "company": "NewVend LLC",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Vending / HoReCa equipment",
+   "ru": "Оборудование для вендинга / HoReCa"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Necta & Covim rep, Evoca/Saeco partner; paper cups",
+   "ru": "Представитель Necta и Covim, партнёр Evoca/Saeco; бумажные стаканы"
+  },
+  "fit": {
+   "en": "Vending base, cup maker",
+   "ru": "Вендинговая база, производитель стаканов"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 11 200001; +374 91 582060",
+   "ru": "+374 11 200001; +374 91 582060"
+  },
+  "source": "https://www.spyur.am/en/companies/new-vend/29451",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 30,
+  "company": "Coffeetrade LLC",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Abovyan (Kotayk)",
+   "ru": "Абовян (Котайк)"
+  },
+  "segment": {
+   "en": "Vending / office coffee",
+   "ru": "Вендинг / офисный кофе"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Official Nestle Vending partner; machine importer",
+   "ru": "Официальный партнёр Nestle Vending; импортёр автоматов"
+  },
+  "fit": {
+   "en": "Small vending supplier",
+   "ru": "Небольшой вендинговый поставщик"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 95 000035",
+   "ru": "+374 95 000035"
+  },
+  "source": "https://www.spyur.am/en/companies/coffeetrade/88336",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 31,
+  "company": "Global Vending",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Vending",
+   "ru": "Вендинг"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Coffee machine importer and vending firm",
+   "ru": "Импортёр кофемашин и вендинговая компания"
+  },
+  "fit": {
+   "en": "Vending operator/supplier",
+   "ru": "Вендинг-оператор/поставщик"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 91 868585; +374 55 768585",
+   "ru": "+374 91 868585; +374 55 768585"
+  },
+  "source": "https://www.spyur.am/en/companies/global-vending/36923",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 32,
+  "company": "Smart Vending / Metam Group LLC",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Vending",
+   "ru": "Вендинг"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Beverage vending importer; Vendista terminals rep",
+   "ru": "Импортёр напиточных автоматов; представитель терминалов Vendista"
+  },
+  "fit": {
+   "en": "Small vending firm",
+   "ru": "Небольшая вендинговая компания"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 94 559923; +374 43 559935",
+   "ru": "+374 94 559923; +374 43 559935"
+  },
+  "source": "https://www.spyur.am/en/companies/smart-vending-beverage-vending-machine-import-company/45955",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 33,
+  "company": "Coffee House Company (Coffee House LLC)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan + regions",
+   "ru": "Ереван + регионы"
+  },
+  "segment": {
+   "en": "Coffee-to-go kiosk chain",
+   "ru": "Сеть киосков кофе с собой"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Takeaway kiosk chain, 36–58 points, cappuccino ~800 AMD",
+   "ru": "Сеть киосков навынос, 36–58 точек, капучино ~800 AMD"
+  },
+  "fit": {
+   "en": "High-volume price-competitive takeaway",
+   "ru": "Крупные объёмы, конкурентные цены, навынос"
+  },
+  "website": "http://coffeehouse.am",
+  "contact": {
+   "en": "+374 33 885855",
+   "ru": "+374 33 885855"
+  },
+  "source": "https://www.spyur.am/en/companies/coffee-house/44010",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 34,
+  "company": "Caffeine Coffee Roasters",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Dilijan",
+   "ru": "Дилижан"
+  },
+  "segment": {
+   "en": "Roastery + online shop",
+   "ru": "Обжарочная + интернет-магазин"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Roasted coffee, online sales",
+   "ru": "Обжаренный кофе, онлайн-продажи"
+  },
+  "fit": {
+   "en": "Small roaster",
+   "ru": "Небольшой обжарщик"
+  },
+  "website": "",
+  "contact": {
+   "en": "",
+   "ru": ""
+  },
+  "source": "https://www.spyur.am/en/companies/caffeine-coffee-roasters-coffee-roastery/47944",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 35,
+  "company": "\"Le Cafe de Paris\" Shop",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Tea/coffee shop listed as producer",
+   "ru": "Магазин чая/кофе, указан как производитель"
+  },
+  "priority": "C",
+  "products": {
+   "en": "LAVTEA tea and coffee",
+   "ru": "Чай и кофе LAVTEA"
+  },
+  "fit": {
+   "en": "Small own-label coffee seller",
+   "ru": "Небольшой продавец кофе под своей маркой"
+  },
+  "website": "http://www.lecafedeparis.am",
+  "contact": {
+   "en": "+374 10 581199",
+   "ru": "+374 10 581199"
+  },
+  "source": "https://www.spyur.am/en/companies/le-cafe-de-paris-shop/27948",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 36,
+  "company": "FEIN Roastery",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan (Yeznik Koghbatsi 50/2)",
+   "ru": "Ереван (Езника Кохбаци 50/2)"
+  },
+  "segment": {
+   "en": "Roastery café",
+   "ru": "Кафе-обжарочная"
+  },
+  "priority": "C",
+  "products": {
+   "en": "On-site Probat roasting, own blends and single origins",
+   "ru": "Обжарка на месте на Probat, собственные смеси и моносорта"
+  },
+  "fit": {
+   "en": "Roaster selling bagged beans",
+   "ru": "Обжарщик, продающий фасованное зерно"
+  },
+  "website": "",
+  "contact": {
+   "en": "",
+   "ru": ""
+  },
+  "source": "https://coffeehow.co/specialty-coffee-yerevan-fein/",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 37,
+  "company": "I Vending LLC",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Vending",
+   "ru": "Вендинг"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Beverage vending and coffee machine importer",
+   "ru": "Импортёр напиточных автоматов и кофемашин"
+  },
+  "fit": {
+   "en": "Small vending firm",
+   "ru": "Небольшая вендинговая компания"
+  },
+  "website": "",
+  "contact": {
+   "en": "",
+   "ru": ""
+  },
+  "source": "https://www.spyur.am/en/companies/i-vending/26676",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 38,
+  "company": "Zov Water LLC (ZOVQ)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Office coffee delivery",
+   "ru": "Доставка кофе в офисы"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Office water delivery + coffee and instant coffee",
+   "ru": "Доставка воды в офисы + кофе и растворимый кофе"
+  },
+  "fit": {
+   "en": "Cheap office coffee channel",
+   "ru": "Дешёвый канал офисного кофе"
+  },
+  "website": "http://zovqwater.am",
+  "contact": {
+   "en": "+374 41 515515",
+   "ru": "+374 41 515515"
+  },
+  "source": "https://www.spyur.am/en/companies/zov-water/48598",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 39,
+  "company": "Jur.am (Every Day CJSC)",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan, Dilijan",
+   "ru": "Ереван, Дилижан"
+  },
+  "segment": {
+   "en": "Office coffee delivery",
+   "ru": "Доставка кофе в офисы"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Water delivery + coffee and tea",
+   "ru": "Доставка воды + кофе и чай"
+  },
+  "fit": {
+   "en": "Office coffee on water routes",
+   "ru": "Офисный кофе на маршрутах доставки воды"
+  },
+  "website": "https://jur.am",
+  "contact": {
+   "en": "+374 10 587587",
+   "ru": "+374 10 587587"
+  },
+  "source": "https://www.spyur.am/en/companies/juram-drinking-water-delivery-company/6315",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 40,
+  "company": "Office Pro LLC",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Office coffee supply",
+   "ru": "Снабжение офисов кофе"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Office supplies incl. coffee and instant coffee",
+   "ru": "Офисные товары, в т.ч. кофе и растворимый кофе"
+  },
+  "fit": {
+   "en": "Office coffee buyer",
+   "ru": "Закупщик офисного кофе"
+  },
+  "website": "http://officepro.am",
+  "contact": {
+   "en": "+374 10 662052; +374 10 662082; +374 93 662082",
+   "ru": "+374 10 662052; +374 10 662082; +374 93 662082"
+  },
+  "source": "https://www.spyur.am/en/companies/office-pro-llc---office-essentials-supply-company/5341",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 41,
+  "company": "Officemarket.am",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Office coffee supply",
+   "ru": "Снабжение офисов кофе"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Online office/household goods incl. coffee",
+   "ru": "Онлайн-магазин офисных/хозяйственных товаров, в т.ч. кофе"
+  },
+  "fit": {
+   "en": "Office coffee buyer",
+   "ru": "Закупщик офисного кофе"
+  },
+  "website": "https://officemarket.am",
+  "contact": {
+   "en": "+374 10 323323; +374 91 323322",
+   "ru": "+374 10 323323; +374 91 323322"
+  },
+  "source": "https://www.spyur.am/en/companies/officemarketam-stationery-household-goods-and-accessories-importation-company/25235",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 42,
+  "company": "Alpha Food Service",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "HoReCa distributor",
+   "ru": "Дистрибьютор HoReCa"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Caffe Molinari, Monin, espresso machines; ~3,000 HoReCa clients",
+   "ru": "Caffe Molinari, Monin, эспрессо-машины; ~3 000 клиентов HoReCa"
+  },
+  "fit": {
+   "en": "HoReCa coffee channel",
+   "ru": "Канал кофе для HoReCa"
+  },
+  "website": "http://foodservice.am",
+  "contact": {
+   "en": "+374 10 727799; +374 91 727799",
+   "ru": "+374 10 727799; +374 91 727799"
+  },
+  "source": "https://www.spyur.am/en/companies/alpha-food-service/5239/",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 43,
+  "company": "Sangatrade",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "HoReCa coffee supplier",
+   "ru": "Поставщик кофе для HoReCa"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Caffe Trucillo distributor; La Cimbali, WMF machines",
+   "ru": "Дистрибьютор Caffe Trucillo; машины La Cimbali, WMF"
+  },
+  "fit": {
+   "en": "HoReCa coffee distributor",
+   "ru": "Дистрибьютор кофе для HoReCa"
+  },
+  "website": "http://sangatrade.com",
+  "contact": {
+   "en": "+374 94 933099",
+   "ru": "+374 94 933099"
+  },
+  "source": "https://www.spyur.am/en/companies/sangatrade-trade-company/29604",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 44,
+  "company": "Barista Akademia LLC",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "HoReCa coffee importer",
+   "ru": "Импортёр кофе для HoReCa"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Segafredo, Motta coffee; La San Marco machines",
+   "ru": "Кофе Segafredo, Motta; машины La San Marco"
+  },
+  "fit": {
+   "en": "Small HoReCa importer",
+   "ru": "Небольшой импортёр для HoReCa"
+  },
+  "website": "",
+  "contact": {
+   "en": "+374 98 008034",
+   "ru": "+374 98 008034"
+  },
+  "source": "https://www.spyur.am/en/companies/barista-akademia/55514",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 45,
+  "company": "202°F – Alternative Coffee Brewing",
+  "country": {
+   "en": "Armenia",
+   "ru": "Армения"
+  },
+  "city": {
+   "en": "Yerevan",
+   "ru": "Ереван"
+  },
+  "segment": {
+   "en": "Coffee-to-go kiosks",
+   "ru": "Киоски кофе с собой"
+  },
+  "priority": "C",
+  "products": {
+   "en": "4 takeaway kiosks/cafés in Kentron",
+   "ru": "4 киоска/кафе навынос в Кентроне"
+  },
+  "fit": {
+   "en": "Small kiosk chain",
+   "ru": "Небольшая сеть киосков"
+  },
+  "website": "",
+  "contact": {
+   "en": "",
+   "ru": ""
+  },
+  "source": "https://www.spyur.am/en/companies/202f---alternative-coffee-brewing/57678",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 46,
+  "company": "OMNITRADE (АО «ТПХ Омнитрейд»)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Moscow",
+   "ru": "Москва"
+  },
+  "segment": {
+   "en": "Roaster / private-label packer",
+   "ru": "Обжарщик / фасовщик под СТМ"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Roasted coffee, full-cycle private label, bulk 3–25 kg and retail packs",
+   "ru": "Обжаренный кофе, СТМ полного цикла, опт 3–25 кг и розничная фасовка"
+  },
+  "fit": {
+   "en": "Large-volume private label",
+   "ru": "СТМ в больших объёмах"
+  },
+  "website": "http://omnitrade.ru",
+  "contact": {
+   "en": "+7 (495) 419-9592; kd.assist@omnitrade.ru",
+   "ru": "+7 (495) 419-9592; kd.assist@omnitrade.ru"
+  },
+  "source": "https://productcenter.ru/producers/38236/ao-tpkh-omnitrieid",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 47,
+  "company": "Кофе Брейк (ТМ Kavil)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Khimki (Moscow obl.)",
+   "ru": "Химки (Московская обл.)"
+  },
+  "segment": {
+   "en": "Roaster / private-label packer",
+   "ru": "Обжарщик / фасовщик под СТМ"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Roasts and packs private label from 50 kg",
+   "ru": "Обжаривает и фасует под СТМ от 50 кг"
+  },
+  "fit": {
+   "en": "Low private-label minimum",
+   "ru": "Низкий минимальный заказ СТМ"
+  },
+  "website": "http://kavil.ru",
+  "contact": {
+   "en": "+7 (495) 369-0013; m3@kavil.ru",
+   "ru": "+7 (495) 369-0013; m3@kavil.ru"
+  },
+  "source": "https://productcenter.ru/producers/9323/kompaniia-kofie-brieik",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 48,
+  "company": "Ко энд Фе (ТМ KO&FE)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Moscow",
+   "ru": "Москва"
+  },
+  "segment": {
+   "en": "Roaster / ground packer / private label",
+   "ru": "Обжарщик / фасовщик молотого / СТМ"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Ground coffee packs, beans, filter sachets, drip bags; private label",
+   "ru": "Молотый кофе в пачках, зерно, фильтр-саше, дрип-пакеты; СТМ"
+  },
+  "fit": {
+   "en": "Packs ground coffee + private label",
+   "ru": "Фасует молотый кофе + СТМ"
+  },
+  "website": "http://koandfe.ru",
+  "contact": {
+   "en": "+7 (499) 613-5454; ekofe@yandex.ru",
+   "ru": "+7 (499) 613-5454; ekofe@yandex.ru"
+  },
+  "source": "https://productcenter.ru/producers/17084/kompaniia-ko-end-fie",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 49,
+  "company": "Fresh Coffee (ООО «Фрэш Кофе»)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Balashikha (Moscow obl.)",
+   "ru": "Балашиха (Московская обл.)"
+  },
+  "segment": {
+   "en": "Coffee factory / private label",
+   "ru": "Кофейная фабрика / СТМ"
+  },
+  "priority": "A",
+  "products": {
+   "en": "70+ roasted coffees, ground, flavoured, capsules; private label",
+   "ru": "70+ сортов обжаренного кофе, молотый, ароматизированный, капсулы; СТМ"
+  },
+  "fit": {
+   "en": "Ground coffee + private label",
+   "ru": "Молотый кофе + СТМ"
+  },
+  "website": "http://freshcoffee.ru",
+  "contact": {
+   "en": "+7 (800) 551-9915",
+   "ru": "+7 (800) 551-9915"
+  },
+  "source": "https://productcenter.ru/producers/16922/ooo-fresh-kofie",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 50,
+  "company": "АСАНД (ООО «Асанд»)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Balashikha (Moscow obl.)",
+   "ru": "Балашиха (Московская обл.)"
+  },
+  "segment": {
+   "en": "Ground-coffee producer",
+   "ru": "Производитель молотого кофе"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Ground «D'Oro Ground», «Gusto-Aroma»; beans",
+   "ru": "Молотый «D'Oro Ground», «Gusto-Aroma»; зерно"
+  },
+  "fit": {
+   "en": "Mass-market ground coffee",
+   "ru": "Массовый молотый кофе"
+  },
+  "website": "http://cc-asand.com",
+  "contact": {
+   "en": "+7 (499) 670-48-58; info@cc-asand.ru",
+   "ru": "+7 (499) 670-48-58; info@cc-asand.ru"
+  },
+  "source": "https://productcenter.ru/producers/11252/agazzi",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 51,
+  "company": "Колорс Кофе",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Vladimir",
+   "ru": "Владимир"
+  },
+  "segment": {
+   "en": "Producer / private label for retail chains",
+   "ru": "Производитель / СТМ для торговых сетей"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Arabica, robusta, flavoured; 250 g–20 kg; private label for chains",
+   "ru": "Арабика, робуста, ароматизированный; 250 г–20 кг; СТМ для сетей"
+  },
+  "fit": {
+   "en": "Private label for chains, robusta",
+   "ru": "СТМ для сетей, робуста"
+  },
+  "website": "http://colorscoffee.ru",
+  "contact": {
+   "en": "+7 (920) 913-3375; colorscoffee@mail.ru",
+   "ru": "+7 (920) 913-3375; colorscoffee@mail.ru"
+  },
+  "source": "https://productcenter.ru/producers/39264/ooo-kolors-kofie",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 52,
+  "company": "Территория Обжарки",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Vladimir",
+   "ru": "Владимир"
+  },
+  "segment": {
+   "en": "Roaster / private label / toll roasting",
+   "ru": "Обжарщик / СТМ / давальческая обжарка"
+  },
+  "priority": "A",
+  "products": {
+   "en": "50/50 blends, client packaging, toll roasting; from 350 ₽/kg",
+   "ru": "Смеси 50/50, фасовка в упаковку клиента, давальческая обжарка; от 350 ₽/кг"
+  },
+  "fit": {
+   "en": "Low-price focus",
+   "ru": "Ориентация на низкую цену"
+  },
+  "website": "https://to.coffee",
+  "contact": {
+   "en": "+7 (495) 414-1533; chda@to.coffee",
+   "ru": "+7 (495) 414-1533; chda@to.coffee"
+  },
+  "source": "https://productcenter.ru/producers/23296/tierritoriia-obzharki-g-vladimir",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 53,
+  "company": "Stile di Vita (Липецкая Кофейная Компания)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Lipetsk",
+   "ru": "Липецк"
+  },
+  "segment": {
+   "en": "Regional roaster / private label",
+   "ru": "Региональный обжарщик / СТМ"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Beans and ground, espresso blends; roasts to client spec",
+   "ru": "Зерно и молотый, эспрессо-смеси; обжарка по спецификации клиента"
+  },
+  "fit": {
+   "en": "Ground coffee + private label",
+   "ru": "Молотый кофе + СТМ"
+  },
+  "website": "http://sdv-coffee.ru",
+  "contact": {
+   "en": "+7 (910) 350-6555; coffee_hour@bk.ru",
+   "ru": "+7 (910) 350-6555; coffee_hour@bk.ru"
+  },
+  "source": "https://productcenter.ru/producers/24608/stile-di-vita",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 54,
+  "company": "Рязанская Кофейная Компания (Markk Cafe, Резидент)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Ryazan",
+   "ru": "Рязань"
+  },
+  "segment": {
+   "en": "Regional coffee packer",
+   "ru": "Региональный фасовщик кофе"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Packed beans and ground coffee, tea, cocoa",
+   "ru": "Фасованный зерновой и молотый кофе, чай, какао"
+  },
+  "fit": {
+   "en": "Economy own-brand coffee",
+   "ru": "Эконом-кофе под собственным брендом"
+  },
+  "website": "http://markk.ru",
+  "contact": {
+   "en": "rkk62.ab@gmail.com",
+   "ru": "rkk62.ab@gmail.com"
+  },
+  "source": "https://productcenter.ru/producers/17163/riazanskaia-kofieinaia-kompaniia",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 55,
+  "company": "Tasty Coffee / ООО «СТМ Кофе»",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Izhevsk",
+   "ru": "Ижевск"
+  },
+  "segment": {
+   "en": "Roaster / contract roasting",
+   "ru": "Обжарщик / контрактная обжарка"
+  },
+  "priority": "A",
+  "products": {
+   "en": "80+ coffees; «СТМ Кофе» makes ground/bean/drip/capsule under client brands",
+   "ru": "80+ сортов; «СТМ Кофе» производит молотый/зерновой/дрип/капсульный кофе под брендами клиентов"
+  },
+  "fit": {
+   "en": "Dedicated contract arm",
+   "ru": "Отдельное контрактное подразделение"
+  },
+  "website": "https://tastycoffee.ru",
+  "contact": {
+   "en": "+7 (3412) 43-33-33; sales@tastycoffee.ru",
+   "ru": "+7 (3412) 43-33-33; sales@tastycoffee.ru"
+  },
+  "source": "https://productcenter.ru/producers/8280/proizvoditiel-kofie-tm-tasty-coffee",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 56,
+  "company": "NEVA Coffee Roasters",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "St Petersburg",
+   "ru": "Санкт-Петербург"
+  },
+  "segment": {
+   "en": "Roaster / private label",
+   "ru": "Обжарщик / СТМ"
+  },
+  "priority": "A",
+  "products": {
+   "en": "30+ coffees; supplies for resale under client label",
+   "ru": "30+ сортов; поставки для перепродажи под маркой клиента"
+  },
+  "fit": {
+   "en": "Explicit private label",
+   "ru": "Явно работает с СТМ"
+  },
+  "website": "http://nevacoffee.ru",
+  "contact": {
+   "en": "+7 (812) 715-15-90; zakaz@nevacoffee.ru",
+   "ru": "+7 (812) 715-15-90; zakaz@nevacoffee.ru"
+  },
+  "source": "https://productcenter.ru/producers/37822/neva-coffee-roasters",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 57,
+  "company": "Savin Coffee (ООО «О.Д.А. Хардман»)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "St Petersburg",
+   "ru": "Санкт-Петербург"
+  },
+  "segment": {
+   "en": "Roaster / ground producer",
+   "ru": "Обжарщик / производитель молотого"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Bean & ground incl. 100% robusta; wholesale from 10 kg",
+   "ru": "Зерновой и молотый, в т.ч. 100% робуста; опт от 10 кг"
+  },
+  "fit": {
+   "en": "Robusta/ground, low minimum",
+   "ru": "Робуста/молотый, низкий минимум"
+  },
+  "website": "http://coffeesavin.ru",
+  "contact": {
+   "en": "info@coffeespb.ru",
+   "ru": "info@coffeespb.ru"
+  },
+  "source": "https://productcenter.ru/producers/30142/savin-coffee",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 58,
+  "company": "Компания «АнМан» (ООО «Шиленков Групп»)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Ramenskoye (Moscow obl.)",
+   "ru": "Раменское (Московская обл.)"
+  },
+  "segment": {
+   "en": "Chicory / coffee substitutes",
+   "ru": "Цикорий / заменители кофе"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Ground and soluble chicory, flavoured chicory drinks, CoffeMan coffee",
+   "ru": "Молотый и растворимый цикорий, ароматизированные напитки из цикория, кофе CoffeMan"
+  },
+  "fit": {
+   "en": "Specialist chicory maker",
+   "ru": "Специализированный производитель цикория"
+  },
+  "website": "",
+  "contact": {
+   "en": "anmanchicory@mail.ru",
+   "ru": "anmanchicory@mail.ru"
+  },
+  "source": "https://productcenter.ru/producers/8234/kompaniia-anman",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 59,
+  "company": "ПК «Альвера»",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Moscow",
+   "ru": "Москва"
+  },
+  "segment": {
+   "en": "Coffee drinks / grain drinks",
+   "ru": "Кофейные напитки / злаковые напитки"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Rye-barley coffee drinks («Добрость», «Два колоска», «Кофейный»), chicory, cocoa",
+   "ru": "Ржано-ячменные кофейные напитки («Добрость», «Два колоска», «Кофейный»), цикорий, какао"
+  },
+  "fit": {
+   "en": "Already sells grain coffee drinks",
+   "ru": "Уже продаёт злаковые кофейные напитки"
+  },
+  "website": "http://alvera.su",
+  "contact": {
+   "en": "alvera@alvera.su",
+   "ru": "alvera@alvera.su"
+  },
+  "source": "https://productcenter.ru/producers/16629/proizvodstviennaia-kompaniia-alviera",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 60,
+  "company": "ООО «Будь Готов» (ТМ «Вкус»)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Novosibirsk",
+   "ru": "Новосибирск"
+  },
+  "segment": {
+   "en": "Coffee drinks / instant",
+   "ru": "Кофейные напитки / растворимые"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Coffee drinks incl. «Любительский» (barley, chicory), cocoa, kissel",
+   "ru": "Кофейные напитки, в т.ч. «Любительский» (ячмень, цикорий), какао, кисель"
+  },
+  "fit": {
+   "en": "Barley-chicory drink maker",
+   "ru": "Производитель ячменно-цикорных напитков"
+  },
+  "website": "http://tmvkus.ru",
+  "contact": {
+   "en": "8 (383) 225-68-74; kakaovkus@mail.ru",
+   "ru": "8 (383) 225-68-74; kakaovkus@mail.ru"
+  },
+  "source": "https://productcenter.ru/producers/24762/bud-gotov",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 61,
+  "company": "ООО «НоваПродукт АГ» (Chikoroff, Bionova)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Troitsk / Podolsk (Moscow)",
+   "ru": "Троицк / Подольск (Москва)"
+  },
+  "segment": {
+   "en": "Chicory",
+   "ru": "Цикорий"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Chicory drinks incl. cappuccino chicory; sweeteners, ingredients",
+   "ru": "Напитки из цикория, в т.ч. цикорий-капучино; подсластители, ингредиенты"
+  },
+  "fit": {
+   "en": "Flavoured chicory brand",
+   "ru": "Бренд ароматизированного цикория"
+  },
+  "website": "http://novaprodukt.ru",
+  "contact": {
+   "en": "+7 (495) 225-56-55",
+   "ru": "+7 (495) 225-56-55"
+  },
+  "source": "https://productcenter.ru/producers/16428/ooo-novaprodukt-ag",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 62,
+  "company": "ООО «Фаворит» (ТМ «Цикорич»)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "St Petersburg / Murino",
+   "ru": "Санкт-Петербург / Мурино"
+  },
+  "segment": {
+   "en": "Chicory / coffee",
+   "ru": "Цикорий / кофе"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Chicory (Цикорич / Chicorich Gold), coffee, cocoa; supplies ВкусВилл",
+   "ru": "Цикорий (Цикорич / Chicorich Gold), кофе, какао; поставляет во ВкусВилл"
+  },
+  "fit": {
+   "en": "Regional chicory producer",
+   "ru": "Региональный производитель цикория"
+  },
+  "website": "http://chicorich.ru",
+  "contact": {
+   "en": "8 (812) 923-30-50; chicorich@mail.ru",
+   "ru": "8 (812) 923-30-50; chicorich@mail.ru"
+  },
+  "source": "https://chicorich.ru/",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 63,
+  "company": "НПК «Компас Здоровья»",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Novosibirsk",
+   "ru": "Новосибирск"
+  },
+  "segment": {
+   "en": "Coffee substitutes",
+   "ru": "Заменители кофе"
+  },
+  "priority": "A",
+  "products": {
+   "en": "«Фитокофе Ячмень» (Jerusalem artichoke, barley, dandelion, coffee)",
+   "ru": "«Фитокофе Ячмень» (топинамбур, ячмень, одуванчик, кофе)"
+  },
+  "fit": {
+   "en": "Already sells an extender-type blend",
+   "ru": "Уже продаёт смесь-наполнитель"
+  },
+  "website": "http://smkfarm.ru",
+  "contact": {
+   "en": "+7 (383) 224-12-63; info@k-zd.ru",
+   "ru": "+7 (383) 224-12-63; info@k-zd.ru"
+  },
+  "source": "http://www.smkfarm.ru/catalog/pravilnoe-pitanie/napitki/fitokofe-yachmen/",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 64,
+  "company": "ООО «Аристократ-Вендинг» (ARISTOCRAT)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Dolgoprudny (Moscow obl.)",
+   "ru": "Долгопрудный (Московская обл.)"
+  },
+  "segment": {
+   "en": "Vending ingredients",
+   "ru": "Вендинговые ингредиенты"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Instant cappuccino, chocolate, toppings, coffee; custom recipes (granulator, lab)",
+   "ru": "Растворимый капучино, шоколад, топпинги, кофе; индивидуальные рецептуры (гранулятор, лаборатория)"
+  },
+  "fit": {
+   "en": "Custom vending-powder blender",
+   "ru": "Смешивает вендинговые порошки по рецептуре"
+  },
+  "website": "https://aristocrat-vend.ru",
+  "contact": {
+   "en": "8 (495) 568-16-36; info@aristocrat-trade.ru",
+   "ru": "8 (495) 568-16-36; info@aristocrat-trade.ru"
+  },
+  "source": "https://aristocrat-vend.ru/",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 65,
+  "company": "DeMarco",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "St Petersburg",
+   "ru": "Санкт-Петербург"
+  },
+  "segment": {
+   "en": "Vending ingredients",
+   "ru": "Вендинговые ингредиенты"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Vending ingredients, instant and bean coffee; private label",
+   "ru": "Вендинговые ингредиенты, растворимый и зерновой кофе; СТМ"
+  },
+  "fit": {
+   "en": "Vending factory with private label",
+   "ru": "Вендинговая фабрика с СТМ"
+  },
+  "website": "https://demarco.coffee",
+  "contact": {
+   "en": "8 800 700-05-38; office@demarco.coffee",
+   "ru": "8 800 700-05-38; office@demarco.coffee"
+  },
+  "source": "https://demarco.coffee/",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 66,
+  "company": "ООО «Алтайпродукт РПК»",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Barnaul",
+   "ru": "Барнаул"
+  },
+  "segment": {
+   "en": "Vending ingredients / dry mixes",
+   "ru": "Вендинговые ингредиенты / сухие смеси"
+  },
+  "priority": "A",
+  "products": {
+   "en": "Cappuccino, chocolate, toppings, dry milk; private label 200–1000 g",
+   "ru": "Капучино, шоколад, топпинги, сухое молоко; СТМ 200–1000 г"
+  },
+  "fit": {
+   "en": "Dry-mix private-label blender",
+   "ru": "Смешивание сухих смесей под СТМ"
+  },
+  "website": "http://aproduct22.com",
+  "contact": {
+   "en": "+7 (3852) 461-375; arpk2003@mail.ru",
+   "ru": "+7 (3852) 461-375; arpk2003@mail.ru"
+  },
+  "source": "https://productcenter.ru/producers/36376/tm-altaiskaia-pienka",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 67,
+  "company": "Sesto Senso",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Moscow (prod. Moscow obl.)",
+   "ru": "Москва (произв. Московская обл.)"
+  },
+  "segment": {
+   "en": "Coffee packer / private label",
+   "ru": "Фасовщик кофе / СТМ"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Packaged coffee, beans, pods; private label",
+   "ru": "Фасованный кофе, зерно, чалды; СТМ"
+  },
+  "fit": {
+   "en": "Private-label packer",
+   "ru": "Фасовщик под СТМ"
+  },
+  "website": "http://s-senso.ru",
+  "contact": {
+   "en": "+7 (495) 670-6917; senso.s@yandex.ru",
+   "ru": "+7 (495) 670-6917; senso.s@yandex.ru"
+  },
+  "source": "https://productcenter.ru/producers/15387/ooo-sesto-senso",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 68,
+  "company": "MADEO (ООО «Кофе Мадео»)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Moscow",
+   "ru": "Москва"
+  },
+  "segment": {
+   "en": "Roaster / wholesale",
+   "ru": "Обжарщик / опт"
+  },
+  "priority": "B",
+  "products": {
+   "en": "150+ SKUs incl. portioned ground, flavoured coffee",
+   "ru": "150+ SKU, в т.ч. порционный молотый, ароматизированный кофе"
+  },
+  "fit": {
+   "en": "Flavoured & ground wholesale",
+   "ru": "Опт ароматизированного и молотого кофе"
+  },
+  "website": "http://madeo.ru",
+  "contact": {
+   "en": "+7 (495) 225-1050; site@madeo.ru",
+   "ru": "+7 (495) 225-1050; site@madeo.ru"
+  },
+  "source": "https://productcenter.ru/producers/8281/proizvoditiel-kofie-madeo",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 69,
+  "company": "AMADO (ООО «Кофе Прайм»)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Moscow",
+   "ru": "Москва"
+  },
+  "segment": {
+   "en": "Roaster / wholesale",
+   "ru": "Обжарщик / опт"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Blends, flavoured coffee, ground arabica; Russia & CIS",
+   "ru": "Смеси, ароматизированный кофе, молотая арабика; Россия и СНГ"
+  },
+  "fit": {
+   "en": "Ground & flavoured wholesaler",
+   "ru": "Оптовик молотого и ароматизированного кофе"
+  },
+  "website": "http://amado.ru",
+  "contact": {
+   "en": "+7 (495) 780-6181; coffee@amado.ru",
+   "ru": "+7 (495) 780-6181; coffee@amado.ru"
+  },
+  "source": "https://productcenter.ru/producers/5431/kofieinaia-kompaniia-amado-kofie",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 70,
+  "company": "Ростинг Брю (ТМ Submarine)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Moscow",
+   "ru": "Москва"
+  },
+  "segment": {
+   "en": "Coffee factory / roaster",
+   "ru": "Кофейная фабрика / обжарщик"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Ground and bean coffee, capsules, drip bags, sachets",
+   "ru": "Молотый и зерновой кофе, капсулы, дрип-пакеты, саше"
+  },
+  "fit": {
+   "en": "Coffee factory with ground line",
+   "ru": "Кофейная фабрика с линией молотого"
+  },
+  "website": "http://sbmrne.ru",
+  "contact": {
+   "en": "info@bryou.ru",
+   "ru": "info@bryou.ru"
+  },
+  "source": "https://productcenter.ru/producers/20146/ooo-rosting-briu",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 71,
+  "company": "ЭлитКафе («Кофемановъ»)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Moscow",
+   "ru": "Москва"
+  },
+  "segment": {
+   "en": "Roaster / office-coffee supplier",
+   "ru": "Обжарщик / поставщик офисного кофе"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Bean & ground coffee mainly for offices",
+   "ru": "Зерновой и молотый кофе, в основном для офисов"
+  },
+  "fit": {
+   "en": "Price-sensitive office segment",
+   "ru": "Ценочувствительный офисный сегмент"
+  },
+  "website": "http://elitcafe.ru",
+  "contact": {
+   "en": "+7 (495) 926-45-45; elitcafe@list.ru",
+   "ru": "+7 (495) 926-45-45; elitcafe@list.ru"
+  },
+  "source": "https://productcenter.ru/producers/8283/proizvodstviennaia-kompaniia-elitkafie",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 72,
+  "company": "КОФЕСКО (ТМ «Кофе с компанией»)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Khimki (Moscow obl.)",
+   "ru": "Химки (Московская обл.)"
+  },
+  "segment": {
+   "en": "Roaster / wholesale",
+   "ru": "Обжарщик / опт"
+  },
+  "priority": "B",
+  "products": {
+   "en": "150+ coffees incl. house blends, flavoured, robusta",
+   "ru": "150+ сортов, в т.ч. фирменные смеси, ароматизированные, робуста"
+  },
+  "fit": {
+   "en": "Wholesale blends",
+   "ru": "Оптовые смеси"
+  },
+  "website": "http://kofesko.ru",
+  "contact": {
+   "en": "kofesko@yandex.ru",
+   "ru": "kofesko@yandex.ru"
+  },
+  "source": "https://productcenter.ru/producers/16038/kofiesko",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 73,
+  "company": "Caffevita",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Protvino (Moscow obl.)",
+   "ru": "Протвино (Московская обл.)"
+  },
+  "segment": {
+   "en": "Small roaster / private label",
+   "ru": "Небольшой обжарщик / СТМ"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Beans and blends; private-label packing, blend development",
+   "ru": "Зерно и смеси; фасовка под СТМ, разработка смесей"
+  },
+  "fit": {
+   "en": "Small roaster offering private label",
+   "ru": "Небольшой обжарщик, предлагающий СТМ"
+  },
+  "website": "http://caffevita.ru",
+  "contact": {
+   "en": "+7 (499) 391-0162",
+   "ru": "+7 (499) 391-0162"
+  },
+  "source": "https://productcenter.ru/producers/37892/caffevita",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 74,
+  "company": "Gemma Coffee",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Voronezh",
+   "ru": "Воронеж"
+  },
+  "segment": {
+   "en": "Regional coffee/tea producer",
+   "ru": "Региональный производитель кофе/чая"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Espresso blends, vending coffee, flavoured, teas (since 2001)",
+   "ru": "Эспрессо-смеси, вендинговый кофе, ароматизированный, чаи (с 2001 г.)"
+  },
+  "fit": {
+   "en": "Vending & flavoured lines",
+   "ru": "Вендинговая и ароматизированная линейки"
+  },
+  "website": "http://gemma-coffee.ru",
+  "contact": {
+   "en": "+7 910 240-12-40; gemma-coffee@ya.ru",
+   "ru": "+7 910 240-12-40; gemma-coffee@ya.ru"
+  },
+  "source": "https://productcenter.ru/producers/12864/tm-gemma-coffee",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 75,
+  "company": "Дон Кофе & Первая Кофейная (MakBush, De Marco)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Shakhty (Rostov obl.)",
+   "ru": "Шахты (Ростовская обл.)"
+  },
+  "segment": {
+   "en": "Regional coffee producer",
+   "ru": "Региональный производитель кофе"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Bean & ground coffee, vending ingredients, tea",
+   "ru": "Зерновой и молотый кофе, вендинговые ингредиенты, чай"
+  },
+  "fit": {
+   "en": "Southern mass-market producer",
+   "ru": "Южный массовый производитель"
+  },
+  "website": "http://donkofe.ru",
+  "contact": {
+   "en": "8-928-906-30-01",
+   "ru": "8-928-906-30-01"
+  },
+  "source": "https://productcenter.ru/producers/4531/donskaia-kofieinaia-kompaniia",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 76,
+  "company": "Dammi Caffe",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Pyatigorsk",
+   "ru": "Пятигорск"
+  },
+  "segment": {
+   "en": "Regional roaster",
+   "ru": "Региональный обжарщик"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Espresso, branded and flavoured blends; client-exclusive blends",
+   "ru": "Эспрессо, фирменные и ароматизированные смеси; эксклюзивные смеси для клиентов"
+  },
+  "fit": {
+   "en": "Makes exclusive client blends",
+   "ru": "Делает эксклюзивные смеси для клиентов"
+  },
+  "website": "http://dammicaffe.com",
+  "contact": {
+   "en": "+7 (961) 444-6162; coffee@dammicaffe.com",
+   "ru": "+7 (961) 444-6162; coffee@dammicaffe.com"
+  },
+  "source": "https://productcenter.ru/producers/25753/dammi-caffe",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 77,
+  "company": "Стетинг (ТМ Askaneli)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Volzhsk (Mari El)",
+   "ru": "Волжск (Марий Эл)"
+  },
+  "segment": {
+   "en": "Regional tea/coffee packer",
+   "ru": "Региональный фасовщик чая/кофе"
+  },
+  "priority": "B",
+  "products": {
+   "en": "250 g ground coffee, 1 kg beans, tea",
+   "ru": "Молотый кофе 250 г, зерно 1 кг, чай"
+  },
+  "fit": {
+   "en": "Packs ground coffee",
+   "ru": "Фасует молотый кофе"
+  },
+  "website": "http://steting.ru",
+  "contact": {
+   "en": "+7 (905) 316-8813; se.steting@yandex.ru",
+   "ru": "+7 (905) 316-8813; se.steting@yandex.ru"
+  },
+  "source": "https://productcenter.ru/producers/26579/ooo-stieting",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 78,
+  "company": "AROMA (ООО «Аромачай»)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Izhevsk",
+   "ru": "Ижевск"
+  },
+  "segment": {
+   "en": "Tea & coffee factory / private label",
+   "ru": "Чайно-кофейная фабрика / СТМ"
+  },
+  "priority": "B",
+  "products": {
+   "en": "200+ teas and coffees; private label",
+   "ru": "200+ чаёв и кофе; СТМ"
+  },
+  "fit": {
+   "en": "Factory with private label",
+   "ru": "Фабрика с СТМ"
+  },
+  "website": "http://aroma-tea.ru",
+  "contact": {
+   "en": "8-800-222-19-42; info@aroma-tea.ru",
+   "ru": "8-800-222-19-42; info@aroma-tea.ru"
+  },
+  "source": "https://productcenter.ru/producers/13191/aroma-tea-coffee",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 79,
+  "company": "Фабрика кофе",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Chelyabinsk",
+   "ru": "Челябинск"
+  },
+  "segment": {
+   "en": "Regional coffee factory",
+   "ru": "Региональная кофейная фабрика"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Roasted and flavoured coffee, tea, spices; wholesale",
+   "ru": "Обжаренный и ароматизированный кофе, чай, специи; опт"
+  },
+  "fit": {
+   "en": "Regional factory",
+   "ru": "Региональная фабрика"
+  },
+  "website": "http://фабрика-кофе.рф",
+  "contact": {
+   "en": "mirkofe@yandex.ru",
+   "ru": "mirkofe@yandex.ru"
+  },
+  "source": "https://productcenter.ru/producers/17313/fabrika-kofie",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 80,
+  "company": "ООО «Экологика»",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Moscow (prod. Tuchkovo)",
+   "ru": "Москва (произв. Тучково)"
+  },
+  "segment": {
+   "en": "Chicory",
+   "ru": "Цикорий"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Freeze-dried chicory, hot chocolate, cocoa",
+   "ru": "Сублимированный цикорий, горячий шоколад, какао"
+  },
+  "fit": {
+   "en": "Chicory & hot-drink brand",
+   "ru": "Бренд цикория и горячих напитков"
+  },
+  "website": "http://ecologica.pro",
+  "contact": {
+   "en": "+7 (495) 789-46-22; info@ecologica.pro",
+   "ru": "+7 (495) 789-46-22; info@ecologica.pro"
+  },
+  "source": "https://productcenter.ru/producers/5034/ooo-ekologika",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 81,
+  "company": "ООО «Славкофе»",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Shcherbinka (Moscow)",
+   "ru": "Щербинка (Москва)"
+  },
+  "segment": {
+   "en": "Chicory / coffee (private label)",
+   "ru": "Цикорий / кофе (СТМ)"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Soluble chicory for ВкусВилл; ~195 staff",
+   "ru": "Растворимый цикорий для ВкусВилл; ~195 сотрудников"
+  },
+  "fit": {
+   "en": "Private-label chicory maker",
+   "ru": "Производитель цикория под СТМ"
+  },
+  "website": "",
+  "contact": {
+   "en": "",
+   "ru": ""
+  },
+  "source": "https://www.emis.cn/php/company-profile/RU/Slavkofe_OOO__Славкофе_ООО__en_3804431.html",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 82,
+  "company": "Комбинат «Невельконсервмолоко» (Nevelvend)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Nevel (Pskov obl.)",
+   "ru": "Невель (Псковская обл.)"
+  },
+  "segment": {
+   "en": "Vending ingredients",
+   "ru": "Вендинговые ингредиенты"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Granulated milk topping, dry milk/cream; customer recipes",
+   "ru": "Гранулированный молочный топпинг, сухое молоко/сливки; рецептуры заказчика"
+  },
+  "fit": {
+   "en": "Custom dry-blend maker",
+   "ru": "Производство сухих смесей по рецептуре"
+  },
+  "website": "http://nevelvend.ru",
+  "contact": {
+   "en": "8 800 775-95-05; nevelmoloko@yandex.ru",
+   "ru": "8 800 775-95-05; nevelmoloko@yandex.ru"
+  },
+  "source": "https://productcenter.ru/producers/10258/kombinat-nievielkonsiervmoloko",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 83,
+  "company": "«Андрей и Ко» / Маэстро Чоколатти",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Novosibirsk",
+   "ru": "Новосибирск"
+  },
+  "segment": {
+   "en": "3-in-1 / instant drinks",
+   "ru": "3-в-1 / растворимые напитки"
+  },
+  "priority": "B",
+  "products": {
+   "en": "3-in-1 coffee sachets 18 g, hot chocolate",
+   "ru": "Кофе 3-в-1 в саше 18 г, горячий шоколад"
+  },
+  "fit": {
+   "en": "Regional 3-in-1 packer",
+   "ru": "Региональный фасовщик 3-в-1"
+  },
+  "website": "http://chocolate-maestro.ru",
+  "contact": {
+   "en": "8 (383) 220-89-41",
+   "ru": "8 (383) 220-89-41"
+  },
+  "source": "https://productcenter.ru/products/34791/bystrorastvorimyi-kofie-3-v-1",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 84,
+  "company": "VendKing (ООО «Вендкинг»)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Yekaterinburg",
+   "ru": "Екатеринбург"
+  },
+  "segment": {
+   "en": "Vending operator",
+   "ru": "Вендинг-оператор"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Free office coffee/snack machines; Aristocrat rep Urals & Siberia",
+   "ru": "Бесплатные офисные кофе/снек-автоматы; представитель Aristocrat на Урале и в Сибири"
+  },
+  "fit": {
+   "en": "Regional office-vending operator",
+   "ru": "Региональный оператор офисного вендинга"
+  },
+  "website": "https://www.vendking.ru",
+  "contact": {
+   "en": "(contact form on site)",
+   "ru": "(форма обратной связи на сайте)"
+  },
+  "source": "https://www.vendking.ru/",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 85,
+  "company": "«Кофейные технологии» (Coffe-T)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Yekaterinburg / Chelyabinsk / Perm",
+   "ru": "Екатеринбург / Челябинск / Пермь"
+  },
+  "segment": {
+   "en": "Vending operator",
+   "ru": "Вендинг-оператор"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Free-rental office machines, service, ingredient delivery",
+   "ru": "Офисные машины в бесплатную аренду, сервис, доставка ингредиентов"
+  },
+  "fit": {
+   "en": "Urals operator buying ingredients",
+   "ru": "Уральский оператор, закупающий ингредиенты"
+  },
+  "website": "https://www.coffe-t.ru",
+  "contact": {
+   "en": "+7 (343) 385-23-10; +7 (351) 217-29-49",
+   "ru": "+7 (343) 385-23-10; +7 (351) 217-29-49"
+  },
+  "source": "https://www.coffe-t.ru/catalog/install",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 86,
+  "company": "«Венд Кубани»",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Krasnodar",
+   "ru": "Краснодар"
+  },
+  "segment": {
+   "en": "Vending operator",
+   "ru": "Вендинг-оператор"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Free install of coffee machines, service, refills",
+   "ru": "Бесплатная установка кофемашин, сервис, заправка"
+  },
+  "fit": {
+   "en": "Southern regional operator",
+   "ru": "Южный региональный оператор"
+  },
+  "website": "https://vendkuban.ru",
+  "contact": {
+   "en": "+7 (918) 930-22-77; vend.kubani@mail.ru",
+   "ru": "+7 (918) 930-22-77; vend.kubani@mail.ru"
+  },
+  "source": "https://vendkuban.ru/",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 87,
+  "company": "VENDBAR.RU",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Chelyabinsk",
+   "ru": "Челябинск"
+  },
+  "segment": {
+   "en": "Vending operator",
+   "ru": "Вендинг-оператор"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Installs, refills, repairs coffee machines at own cost",
+   "ru": "Устанавливает, заправляет и ремонтирует кофемашины за свой счёт"
+  },
+  "fit": {
+   "en": "Small regional operator",
+   "ru": "Небольшой региональный оператор"
+  },
+  "website": "https://www.vendbar.ru",
+  "contact": {
+   "en": "+7 (351) 777-21-20; aqwalider@yandex.ru",
+   "ru": "+7 (351) 777-21-20; aqwalider@yandex.ru"
+  },
+  "source": "https://www.vendbar.ru/",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 88,
+  "company": "ООО «Никовенд»",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Irkutsk",
+   "ru": "Иркутск"
+  },
+  "segment": {
+   "en": "Vending services / supply",
+   "ru": "Вендинговые услуги / снабжение"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Ingredients, own teas, machine rental and repair",
+   "ru": "Ингредиенты, собственные чаи, аренда и ремонт автоматов"
+  },
+  "fit": {
+   "en": "Siberian vending supplier",
+   "ru": "Сибирский вендинговый поставщик"
+  },
+  "website": "https://nicovend.ru",
+  "contact": {
+   "en": "+7 (3952) 55-46-07; office@nicovend.ru",
+   "ru": "+7 (3952) 55-46-07; office@nicovend.ru"
+  },
+  "source": "https://nicovend.ru/torgovye--avtomaty/folder/rashodnye--materialy",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 89,
+  "company": "Арт-Вендинг",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Moscow / St Petersburg / Novosibirsk",
+   "ru": "Москва / Санкт-Петербург / Новосибирск"
+  },
+  "segment": {
+   "en": "Vending supply / rental",
+   "ru": "Вендинговое снабжение / аренда"
+  },
+  "priority": "B",
+  "products": {
+   "en": "Own ART-Vending ingredient line, machine rental and service",
+   "ru": "Собственная линейка ингредиентов ART-Vending, аренда и обслуживание автоматов"
+  },
+  "fit": {
+   "en": "Own-brand ingredients, private label possible",
+   "ru": "Ингредиенты под своим брендом, возможна СТМ"
+  },
+  "website": "https://art-vending.ru",
+  "contact": {
+   "en": "8 800 333-67-82; sale@art-vending.ru",
+   "ru": "8 800 333-67-82; sale@art-vending.ru"
+  },
+  "source": "https://art-vending.ru/catalog/ingredienty/",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 90,
+  "company": "Sample Roasters",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Rostov-on-Don",
+   "ru": "Ростов-на-Дону"
+  },
+  "segment": {
+   "en": "Small roaster",
+   "ru": "Небольшой обжарщик"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Own-roasted coffee incl. ground, drip bags; wholesale from 5 kg",
+   "ru": "Кофе собственной обжарки, в т.ч. молотый, дрип-пакеты; опт от 5 кг"
+  },
+  "fit": {
+   "en": "Regional ground roaster",
+   "ru": "Региональный обжарщик молотого кофе"
+  },
+  "website": "http://sample-roasters.ru",
+  "contact": {
+   "en": "+7 (961) 428-8354; samplecoffeernd@yandex.ru",
+   "ru": "+7 (961) 428-8354; samplecoffeernd@yandex.ru"
+  },
+  "source": "https://productcenter.ru/producers/34997/sample-roasters",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 91,
+  "company": "Ingresso Coffee",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Yekaterinburg",
+   "ru": "Екатеринбург"
+  },
+  "segment": {
+   "en": "Regional roaster / wholesale",
+   "ru": "Региональный обжарщик / опт"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Espresso/filter, decaf, capsules, drip bags",
+   "ru": "Эспрессо/фильтр, без кофеина, капсулы, дрип-пакеты"
+  },
+  "fit": {
+   "en": "Urals wholesale roaster",
+   "ru": "Уральский оптовый обжарщик"
+  },
+  "website": "https://ingresso.coffee",
+  "contact": {
+   "en": "+7 (343) 278-81-63; manager@ingresso.coffee",
+   "ru": "+7 (343) 278-81-63; manager@ingresso.coffee"
+  },
+  "source": "https://productcenter.ru/producers/35561/ingresso-coffee",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 92,
+  "company": "Non s.nob coffee",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Omsk",
+   "ru": "Омск"
+  },
+  "segment": {
+   "en": "Small roaster / private label",
+   "ru": "Небольшой обжарщик / СТМ"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Small-batch roasting; private label",
+   "ru": "Обжарка малыми партиями; СТМ"
+  },
+  "fit": {
+   "en": "Siberian roaster with private label",
+   "ru": "Сибирский обжарщик с СТМ"
+  },
+  "website": "http://nonsnob-coffee.ru",
+  "contact": {
+   "en": "omsk.barista@gmail.com",
+   "ru": "omsk.barista@gmail.com"
+  },
+  "source": "https://productcenter.ru/producers/21728/non-s-nob-coffee",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 93,
+  "company": "СОЛО (ТМ SOLOCUP)",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Vladivostok",
+   "ru": "Владивосток"
+  },
+  "segment": {
+   "en": "Regional roaster",
+   "ru": "Региональный обжарщик"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Own-roast SOLO beans 1 kg, tea, equipment",
+   "ru": "Зерно собственной обжарки SOLO 1 кг, чай, оборудование"
+  },
+  "fit": {
+   "en": "Far East own-roast brand",
+   "ru": "Дальневосточный бренд собственной обжарки"
+  },
+  "website": "http://solovl.ru",
+  "contact": {
+   "en": "info@richvl.ru",
+   "ru": "info@richvl.ru"
+  },
+  "source": "https://productcenter.ru/producers/32488/solo-kofie",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 94,
+  "company": "ТД «Кактус»",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Yekaterinburg",
+   "ru": "Екатеринбург"
+  },
+  "segment": {
+   "en": "Vending supply / service (channel)",
+   "ru": "Вендинговое снабжение / сервис (канал)"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Ingredients to operators; Bianchi, Necta, Jetinno machines",
+   "ru": "Ингредиенты для операторов; автоматы Bianchi, Necta, Jetinno"
+  },
+  "fit": {
+   "en": "Channel to Urals operators",
+   "ru": "Канал к уральским операторам"
+  },
+  "website": "https://td-kaktus.ru",
+  "contact": {
+   "en": "+7 343 301-44-43",
+   "ru": "+7 343 301-44-43"
+  },
+  "source": "https://td-kaktus.ru/vending",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 95,
+  "company": "ООО «ЮМВенд-Урал»",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Yekaterinburg",
+   "ru": "Екатеринбург"
+  },
+  "segment": {
+   "en": "Vending equipment / ingredients (channel)",
+   "ru": "Вендинговое оборудование / ингредиенты (канал)"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Coffee & snack machines, micro-markets, ingredients",
+   "ru": "Кофейные и снековые автоматы, микромаркеты, ингредиенты"
+  },
+  "fit": {
+   "en": "Operator-facing ingredient seller",
+   "ru": "Продавец ингредиентов для операторов"
+  },
+  "website": "https://umvend.ru",
+  "contact": {
+   "en": "+7 800 222-00-75; info@umvend.ru",
+   "ru": "+7 800 222-00-75; info@umvend.ru"
+  },
+  "source": "https://umvend.ru/catalog/ingredients",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 96,
+  "company": "ВЕНДЭКС-Урал",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Yekaterinburg (+Chelyabinsk, Tyumen)",
+   "ru": "Екатеринбург (+Челябинск, Тюмень)"
+  },
+  "segment": {
+   "en": "Vending distributor (channel)",
+   "ru": "Вендинговый дистрибьютор (канал)"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Distributes AlmaFood, Aristocrat, DeMarco ingredients; machines",
+   "ru": "Дистрибуция ингредиентов AlmaFood, Aristocrat, DeMarco; автоматы"
+  },
+  "fit": {
+   "en": "Ingredient channel to operators",
+   "ru": "Канал ингредиентов к операторам"
+  },
+  "website": "https://vendex-ural.ru",
+  "contact": {
+   "en": "8-992-009-08-86; +7 343 206-18-11",
+   "ru": "8-992-009-08-86; +7 343 206-18-11"
+  },
+  "source": "https://vendex-ural.ru/ingredienty_dlya_vendinga/",
+  "confidence": {
+   "en": "Med",
+   "ru": "Средняя"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 97,
+  "company": "Кофейная компания Coffos",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Moscow",
+   "ru": "Москва"
+  },
+  "segment": {
+   "en": "Office coffee / machine rental",
+   "ru": "Офисный кофе / аренда кофемашин"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Free machine rental with coffee from 1 kg/month",
+   "ru": "Бесплатная аренда машин при закупке кофе от 1 кг/мес"
+  },
+  "fit": {
+   "en": "Small office-coffee operator",
+   "ru": "Небольшой оператор офисного кофе"
+  },
+  "website": "https://coffos.ru",
+  "contact": {
+   "en": "+7 495 979-59-77; coffee@coffos.ru",
+   "ru": "+7 495 979-59-77; coffee@coffos.ru"
+  },
+  "source": "https://coffos.ru/arenda-kofemashin",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 98,
+  "company": "Coffee Deal",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Moscow",
+   "ru": "Москва"
+  },
+  "segment": {
+   "en": "Office coffee / machine rental",
+   "ru": "Офисный кофе / аренда кофемашин"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Office machine rental, coffee supply contracts",
+   "ru": "Аренда офисных машин, договоры на поставку кофе"
+  },
+  "fit": {
+   "en": "Small office-coffee operator",
+   "ru": "Небольшой оператор офисного кофе"
+  },
+  "website": "https://coffee-deal.ru",
+  "contact": {
+   "en": "8 (963) 618-00-33",
+   "ru": "8 (963) 618-00-33"
+  },
+  "source": "https://coffee-deal.ru/",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 99,
+  "company": "Tabera",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Moscow (+St Petersburg)",
+   "ru": "Москва (+Санкт-Петербург)"
+  },
+  "segment": {
+   "en": "Office coffee / machine rental",
+   "ru": "Офисный кофе / аренда кофемашин"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Machine rental for offices/HoReCa, roasted coffee",
+   "ru": "Аренда машин для офисов/HoReCa, обжаренный кофе"
+  },
+  "fit": {
+   "en": "Small office-coffee operator",
+   "ru": "Небольшой оператор офисного кофе"
+  },
+  "website": "https://tabera.ru",
+  "contact": {
+   "en": "8 (495) 411-94-95; info@tabera.ru",
+   "ru": "8 (495) 411-94-95; info@tabera.ru"
+  },
+  "source": "https://tabera.ru/arenda-kofemashin/",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ },
+ {
+  "id": 100,
+  "company": "VIVAT Coffee",
+  "country": {
+   "en": "Russia",
+   "ru": "Россия"
+  },
+  "city": {
+   "en": "Ramenskoye (Moscow obl.)",
+   "ru": "Раменское (Московская обл.)"
+  },
+  "segment": {
+   "en": "Office coffee / machine rental",
+   "ru": "Офисный кофе / аренда кофемашин"
+  },
+  "priority": "C",
+  "products": {
+   "en": "Free rental against monthly coffee minimum",
+   "ru": "Бесплатная аренда при ежемесячном минимуме закупки кофе"
+  },
+  "fit": {
+   "en": "Small office-coffee operator",
+   "ru": "Небольшой оператор офисного кофе"
+  },
+  "website": "https://vivatcoffee.ru",
+  "contact": {
+   "en": "info@vivatcoffee.ru",
+   "ru": "info@vivatcoffee.ru"
+  },
+  "source": "https://vivatcoffee.ru/coffeemachina-v-arendu.html",
+  "confidence": {
+   "en": "High",
+   "ru": "Высокая"
+  },
+  "status": "",
+  "notes": ""
+ }
+]
